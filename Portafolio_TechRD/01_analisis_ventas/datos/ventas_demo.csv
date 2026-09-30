@@ -1,0 +1,738 @@
+﻿id_venta,fecha,producto,categoria,ciudad,canal,cantidad,precio_unitario,costo_unitario,descuento_pct
+V0001,2026-01-29,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,2,2800,1700,0
+V0002,2026-07-08,Monitor 24,Monitores,Santo Domingo,Tienda,5,8900,6100,10
+V0003,2026-01-08,Laptop 14,Computadoras,Santo Domingo,Tienda,2,38500,28500,0
+V0004,2026-02-20,SSD 500 GB,Almacenamiento,La Romana,Online,2,3200,2100,10
+V0005,2026-03-13,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,4,3200,2100,5
+V0006,2026-02-09,Mouse USB,Accesorios,Santo Domingo,Online,1,650,290,0
+V0007,2026-01-25,Teclado,Accesorios,Santiago,Online,5,1450,780,5
+V0008,2026-07-06,Laptop 14,Computadoras,Santiago,Tienda,4,38500,28500,0
+V0009,2026-03-17,SSD 500 GB,Almacenamiento,La Romana,Online,5,3200,2100,0
+V0010,2026-01-18,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,3,2800,1700,0
+V0011,2026-08-10,Monitor 24,Monitores,Santo Domingo,Online,3,8900,6100,10
+V0012,2026-08-02,Memoria RAM 16 GB,Componentes,Santiago,Tienda,3,2800,1700,5
+V0013,2026-06-21,Monitor 24,Monitores,Santiago,Tienda,5,8900,6100,0
+V0014,2026-07-06,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,4,3200,2100,10
+V0015,2026-08-25,Mouse USB,Accesorios,La Romana,Tienda,3,650,290,0
+V0016,2026-07-30,Monitor 24,Monitores,  Santo Domingo  ,Online,4,8900,6100,5
+V0017,2026-02-24,Laptop 14,Computadoras,La Romana,Online,2,38500,28500,10
+V0018,2026-08-15,Teclado,Accesorios,La Romana,Online,2,1450,780,5
+V0019,2026-03-05,Monitor 24,Monitores,La Romana,Online,5,8900,6100,10
+V0020,2026-04-13,SSD 500 GB,Almacenamiento,Santiago,Tienda,2,3200,2100,10
+V0021,2026-07-13,Laptop 14,Computadoras,Santo Domingo,Tienda,2,38500,28500,0
+V0022,2026-04-19,Memoria RAM 16 GB,Componentes,La Romana,Tienda,4,2800,1700,10
+V0023,2026-04-30,SSD 500 GB,Almacenamiento,La Romana,Online,5,3200,2100,0
+V0024,2026-07-04,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,3,2800,1700,0
+V0025,2026-04-22,Mouse USB,Accesorios,Santo Domingo,Online,1,650,290,5
+V0026,2026-07-15,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,3,3200,2100,0
+V0027,2026-04-06,Monitor 24,Monitores,Santo Domingo,Tienda,5,8900,6100,5
+V0028,2026-01-05,Teclado,Accesorios,Santo Domingo,Online,3,1450,780,0
+V0029,2026-03-03,Laptop 14,Computadoras,La Romana,Tienda,1,38500,28500,10
+V0030,2026-07-14,Laptop 14,Computadoras,La Romana,Tienda,2,38500,28500,10
+V0031,2026-02-12,SSD 500 GB,Almacenamiento,Santiago,Online,2,3200,2100,0
+V0032,2026-03-21,Memoria RAM 16 GB,Componentes,Santiago,Online,4,2800,1700,10
+V0033,2026-03-05,Laptop 14,Computadoras,Santo Domingo,Tienda,3,38500,28500,0
+V0034,2026-05-22,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,1,3200,2100,0
+V0035,2026-06-11,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,1,2800,1700,0
+V0036,2026-01-19,Mouse USB,Accesorios,La Romana,Tienda,3,650,290,10
+V0037,2026-05-19,Monitor 24,Monitores,Santo Domingo,Online,2,8900,6100,10
+V0038,2026-02-18,Teclado,Accesorios,Santo Domingo,Tienda,4,1450,780,5
+V0039,2026-04-16,Teclado,Accesorios,Santiago,Tienda,1,1450,780,0
+V0040,2026-07-06,Teclado,Accesorios,Santiago,Tienda,2,1450,780,0
+V0041,2026-05-18,Monitor 24,Monitores,Santiago,Tienda,4,8900,6100,0
+V0042,2026-04-29,Mouse USB,Accesorios,Santo Domingo,Tienda,4,650,290,0
+V0043,2026-06-16,Laptop 14,Computadoras,La Romana,Tienda,1,38500,28500,0
+V0044,2026-04-15,Monitor 24,Monitores,Santiago,Online,2,8900,6100,10
+V0045,2026-02-12,Laptop 14,Computadoras,Santiago,Tienda,4,38500,28500,5
+V0046,2026-03-15,Teclado,Accesorios,Santiago,Online,2,1450,780,0
+V0047,2026-02-25,Mouse USB,Accesorios,Santo Domingo,Tienda,3,650,290,0
+V0048,2026-05-30,Laptop 14,Computadoras,Santiago,Tienda,1,38500,28500,0
+V0049,2026-01-18,Monitor 24,Monitores,La Romana,Tienda,2,8900,6100,10
+V0050,2026-08-30,Laptop 14,Computadoras,La Romana,Tienda,5,38500,28500,0
+V0051,2026-01-21,SSD 500 GB,Almacenamiento,Santiago,Online,3,3200,2100,0
+V0052,2026-07-03,Memoria RAM 16 GB,Componentes,Santiago,Tienda,3,2800,1700,10
+V0053,2026-06-21,Monitor 24,Monitores,La Romana,Online,4,8900,6100,5
+V0054,2026-01-03,Laptop 14,Computadoras,Santiago,Tienda,1,38500,28500,0
+V0055,2026-03-09,SSD 500 GB,Almacenamiento,Santo Domingo,Online,1,3200,2100,0
+V0056,2026-03-14,Mouse USB,Accesorios,Santo Domingo,Online,5,650,290,5
+V0057,2026-07-26,SSD 500 GB,Almacenamiento,La Romana,Tienda,5,3200,2100,5
+V0058,2026-01-27,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,1,2800,1700,0
+V0059,2026-05-22,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,3,2800,1700,0
+V0060,2026-03-29,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,5,2800,1700,10
+V0061,2026-08-20,Mouse USB,Accesorios,Santo Domingo,Tienda,4,650,290,5
+V0062,2026-01-01,Laptop 14,Computadoras,Santiago,Tienda,3,38500,28500,0
+V0063,2026-04-24,Memoria RAM 16 GB,Componentes,La Romana,Online,5,2800,1700,0
+V0064,2026-01-20,Laptop 14,Computadoras,La Romana,Tienda,5,38500,28500,0
+V0065,2026-05-30,Mouse USB,Accesorios,La Romana,Tienda,4,650,290,0
+V0066,2026-03-20,Laptop 14,Computadoras,Santiago,Tienda,3,38500,28500,0
+V0067,2026-03-05,Memoria RAM 16 GB,Componentes,La Romana,Tienda,3,2800,1700,10
+V0068,2026-07-11,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,2,3200,2100,0
+V0069,2026-01-07,Teclado,Accesorios,Santo Domingo,Online,4,1450,780,0
+V0070,2026-02-10,Mouse USB,Accesorios,La Romana,Tienda,4,650,290,0
+V0071,2026-02-26,Teclado,Accesorios,Santo Domingo,Online,3,1450,780,5
+V0072,2026-02-27,Monitor 24,Monitores,Santo Domingo,Tienda,4,8900,6100,5
+V0073,2026-08-10,Mouse USB,Accesorios,Santo Domingo,Online,3,650,290,10
+V0074,2026-08-04,Memoria RAM 16 GB,Componentes,La Romana,Online,1,2800,1700,0
+V0075,2026-02-15,Mouse USB,Accesorios,La Romana,Online,1,650,290,0
+V0076,2026-04-22,SSD 500 GB,Almacenamiento,Santiago,Online,4,3200,2100,0
+V0077,2026-08-19,Teclado,Accesorios,La Romana,Tienda,3,1450,780,0
+V0078,2026-04-22,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,3,2800,1700,10
+V0079,2026-08-31,Laptop 14,Computadoras,La Romana,Online,5,38500,28500,5
+V0080,2026-08-06,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,5,2800,1700,5
+V0081,2026-04-15,Memoria RAM 16 GB,Componentes,Santiago,Online,3,2800,1700,0
+V0082,2026-04-18,Monitor 24,Monitores,La Romana,Online,2,8900,6100,5
+V0083,2026-05-21,Teclado,Accesorios,Santo Domingo,Online,3,1450,780,0
+V0084,2026-07-21,Teclado,Accesorios,La Romana,Online,4,1450,780,10
+V0085,2026-06-22,Teclado,Accesorios,Santo Domingo,Online,2,1450,780,0
+V0086,2026-05-12,Mouse USB,Accesorios,La Romana,Online,1,650,290,0
+V0087,2026-03-21,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,2,2800,1700,0
+V0088,2026-03-04,Laptop 14,Computadoras,Santiago,Tienda,4,38500,28500,10
+V0089,2026-05-28,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,4,2800,1700,10
+V0090,2026-02-07,Monitor 24,Monitores,La Romana,Tienda,1,8900,6100,10
+V0091,2026-02-15,Monitor 24,Monitores,La Romana,Online,1,8900,6100,0
+V0092,2026-04-27,Laptop 14,Computadoras,Santo Domingo,Online,5,38500,28500,5
+V0093,2026-06-06,Teclado,Accesorios,La Romana,Online,5,1450,780,10
+V0094,2026-07-10,Monitor 24,Monitores,Santiago,Online,3,8900,6100,0
+V0095,2026-03-12,Memoria RAM 16 GB,Componentes,La Romana,Online,2,2800,1700,5
+V0096,2026-01-20,Teclado,Accesorios,La Romana,Online,2,1450,780,5
+V0097,2026-03-23,Mouse USB,Accesorios,La Romana,Tienda,2,650,290,0
+V0098,2026-04-09,Monitor 24,Monitores,La Romana,Tienda,2,8900,6100,0
+V0099,2026-04-15,Teclado,Accesorios,Santiago,Online,4,1450,780,0
+V0100,2026-08-02,Monitor 24,Monitores,Santiago,Online,5,8900,6100,0
+V0101,2026-04-08,SSD 500 GB,Almacenamiento,Santiago,Tienda,3,3200,2100,5
+V0102,2026-08-07,Teclado,Accesorios,Santiago,Tienda,4,1450,780,0
+V0103,2026-04-22,Mouse USB,Accesorios,Santiago,Tienda,4,650,290,5
+V0104,2026-06-23,Memoria RAM 16 GB,Componentes,Santiago,Tienda,4,2800,1700,0
+V0105,2026-05-17,SSD 500 GB,Almacenamiento,Santo Domingo,Online,5,3200,2100,0
+V0106,2026-06-14,Laptop 14,Computadoras,Santiago,Tienda,4,38500,28500,0
+V0107,2026-03-08,Laptop 14,Computadoras,Santiago,Online,2,38500,28500,10
+V0108,2026-03-28,Mouse USB,Accesorios,Santiago,Online,4,650,290,5
+V0109,2026-05-01,Laptop 14,Computadoras,Santo Domingo,Tienda,3,38500,28500,0
+V0110,2026-01-18,Memoria RAM 16 GB,Componentes,La Romana,Tienda,1,2800,1700,0
+V0111,2026-08-03,Monitor 24,Monitores,Santo Domingo,Tienda,2,8900,6100,0
+V0112,2026-06-21,Teclado,Accesorios,Santo Domingo,Tienda,4,1450,780,5
+V0113,2026-02-12,Mouse USB,Accesorios,La Romana,Tienda,2,650,290,5
+V0114,2026-05-29,Laptop 14,Computadoras,Santo Domingo,Online,5,38500,28500,10
+V0115,2026-08-30,Teclado,Accesorios,La Romana,Tienda,1,1450,780,0
+V0116,2026-06-28,Laptop 14,Computadoras,Santiago,Tienda,5,38500,28500,0
+V0117,2026-05-17,Mouse USB,Accesorios,Santiago,Online,1,650,290,5
+V0118,2026-08-06,Laptop 14,Computadoras,Santiago,Online,1,38500,28500,10
+V0119,2026-06-12,Mouse USB,Accesorios,Santiago,Tienda,4,650,290,0
+V0120,2026-05-14,Memoria RAM 16 GB,Componentes,La Romana,Online,5,2800,1700,10
+V0121,2026-04-22,Teclado,Accesorios,La Romana,Online,3,1450,780,0
+V0122,2026-03-13,Laptop 14,Computadoras,Santiago,Tienda,4,38500,28500,10
+V0123,2026-01-08,Mouse USB,Accesorios,Santiago,Online,2,650,290,10
+V0124,2026-04-01,Monitor 24,Monitores,Santiago,Online,3,8900,6100,5
+V0125,2026-01-03,SSD 500 GB,Almacenamiento,La Romana,Tienda,1,3200,2100,0
+V0126,2026-04-15,Memoria RAM 16 GB,Componentes,Santiago,Tienda,4,2800,1700,10
+V0127,2026-07-22,Teclado,Accesorios,Santo Domingo,Tienda,3,1450,780,0
+V0128,2026-06-27,Teclado,Accesorios,Santo Domingo,Online,5,1450,780,5
+V0129,2026-05-22,Teclado,Accesorios,La Romana,Online,4,1450,780,5
+V0130,2026-06-29,Mouse USB,Accesorios,Santiago,Online,3,650,290,5
+V0131,2026-01-31,Monitor 24,Monitores,La Romana,Tienda,3,8900,6100,0
+V0132,2026-05-18,Memoria RAM 16 GB,Componentes,La Romana,Tienda,2,2800,1700,0
+V0133,2026-05-04,Memoria RAM 16 GB,Componentes,Santiago,Online,1,2800,1700,0
+V0134,2026-02-28,Mouse USB,Accesorios,Santiago,Tienda,3,650,290,0
+V0135,2026-05-17,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,1,2800,1700,0
+V0136,2026-03-16,SSD 500 GB,Almacenamiento,La Romana,Tienda,4,3200,2100,0
+V0137,2026-05-27,Laptop 14,Computadoras,Santiago,Online,4,38500,28500,10
+V0138,2026-02-17,Mouse USB,Accesorios,Santo Domingo,Online,4,650,290,0
+V0139,2026-04-13,Laptop 14,Computadoras,Santiago,Tienda,5,38500,28500,0
+V0140,2026-02-08,Monitor 24,Monitores,La Romana,Online,1,8900,6100,0
+V0141,2026-05-23,Laptop 14,Computadoras,Santiago,Tienda,5,38500,28500,10
+V0142,2026-08-21,Teclado,Accesorios,Santiago,Online,5,1450,780,10
+V0143,2026-05-26,Mouse USB,Accesorios,La Romana,Tienda,5,650,290,0
+V0144,2026-06-10,Monitor 24,Monitores,Santo Domingo,Online,1,8900,6100,0
+V0145,2026-02-14,Monitor 24,Monitores,La Romana,Tienda,2,8900,6100,0
+V0146,2026-04-26,Teclado,Accesorios,La Romana,Online,3,1450,780,0
+V0147,2026-03-15,Monitor 24,Monitores,La Romana,Online,4,8900,6100,0
+V0148,2026-03-01,Memoria RAM 16 GB,Componentes,Santiago,Tienda,4,2800,1700,0
+V0149,2026-02-27,SSD 500 GB,Almacenamiento,La Romana,Tienda,3,3200,2100,0
+V0150,2026-01-16,Laptop 14,Computadoras,Santo Domingo,Online,5,38500,28500,5
+V0151,2026-02-01,Teclado,Accesorios,Santiago,Online,4,1450,780,5
+V0152,2026-05-19,SSD 500 GB,Almacenamiento,Santiago,Online,1,3200,2100,0
+V0153,2026-07-08,Teclado,Accesorios,Santiago,Online,1,1450,780,0
+V0154,2026-06-22,Monitor 24,Monitores,La Romana,Tienda,3,8900,6100,0
+V0155,2026-05-01,Monitor 24,Monitores,La Romana,Online,3,8900,6100,0
+V0156,2026-04-22,SSD 500 GB,Almacenamiento,La Romana,Online,1,3200,2100,10
+V0157,2026-04-15,Mouse USB,Accesorios,Santiago,Online,1,650,290,0
+V0158,2026-04-16,Mouse USB,Accesorios,La Romana,Online,3,650,290,10
+V0159,2026-01-10,SSD 500 GB,Almacenamiento,Santiago,Tienda,3,3200,2100,5
+V0160,2026-01-30,Mouse USB,Accesorios,Santiago,Tienda,5,650,290,10
+V0161,2026-01-14,Teclado,Accesorios,Santo Domingo,Online,5,1450,780,10
+V0162,2026-04-24,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,3,2800,1700,0
+V0163,2026-04-23,Mouse USB,Accesorios,La Romana,Online,1,650,290,0
+V0164,2026-06-05,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,3,2800,1700,0
+V0165,2026-04-15,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,1,3200,2100,10
+V0166,2026-06-15,Laptop 14,Computadoras,Santo Domingo,Online,3,38500,28500,5
+V0167,2026-08-02,Teclado,Accesorios,Santiago,Online,2,1450,780,10
+V0168,2026-02-07,SSD 500 GB,Almacenamiento,Santiago,Tienda,5,3200,2100,0
+V0169,2026-03-12,Laptop 14,Computadoras,Santiago,Online,5,38500,28500,5
+V0170,2026-03-14,Laptop 14,Computadoras,La Romana,Online,5,38500,28500,10
+V0171,2026-04-25,Monitor 24,Monitores,La Romana,Online,3,8900,6100,5
+V0172,2026-07-15,SSD 500 GB,Almacenamiento,La Romana,Online,4,3200,2100,5
+V0173,2026-06-28,Monitor 24,Monitores,Santo Domingo,Online,2,8900,6100,10
+V0174,2026-03-23,Laptop 14,Computadoras,La Romana,Online,4,38500,28500,10
+V0175,2026-07-22,Memoria RAM 16 GB,Componentes,La Romana,Tienda,4,2800,1700,0
+V0176,2026-05-09,Monitor 24,Monitores,La Romana,Online,1,8900,6100,10
+V0177,2026-05-15,Laptop 14,Computadoras,Santiago,Tienda,2,38500,28500,10
+V0178,2026-02-09,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,3,2800,1700,5
+V0179,2026-06-27,SSD 500 GB,Almacenamiento,Santiago,Tienda,3,3200,2100,10
+V0180,2026-06-10,Mouse USB,Accesorios,La Romana,Online,5,650,290,0
+V0181,2026-01-18,SSD 500 GB,Almacenamiento,Santo Domingo,Online,2,3200,2100,0
+V0182,2026-01-26,Teclado,Accesorios,La Romana,Tienda,4,1450,780,0
+V0183,2026-03-18,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,3,2800,1700,0
+V0184,2026-04-02,Mouse USB,Accesorios,Santiago,Online,2,650,290,0
+V0185,2026-04-16,SSD 500 GB,Almacenamiento,La Romana,Tienda,2,3200,2100,0
+V0186,2026-06-06,Laptop 14,Computadoras,Santiago,Tienda,4,38500,28500,0
+V0187,2026-04-29,Monitor 24,Monitores,La Romana,Online,4,8900,6100,5
+V0188,2026-01-03,Memoria RAM 16 GB,Componentes,Santiago,Online,5,2800,1700,0
+V0189,2026-04-24,Laptop 14,Computadoras,Santiago,Online,4,38500,28500,5
+V0190,2026-08-05,Teclado,Accesorios,Santiago,Tienda,4,1450,780,10
+V0191,2026-03-02,Laptop 14,Computadoras,Santiago,Online,5,38500,28500,5
+V0192,2026-03-17,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,3,2800,1700,0
+V0193,2026-08-10,SSD 500 GB,Almacenamiento,La Romana,Tienda,5,3200,2100,10
+V0194,2026-07-18,Mouse USB,Accesorios,Santo Domingo,Online,2,650,290,0
+V0195,2026-03-06,SSD 500 GB,Almacenamiento,La Romana,Tienda,1,3200,2100,0
+V0196,2026-07-21,Mouse USB,Accesorios,Santiago,Tienda,5,650,290,5
+V0197,2026-02-03,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,3,2800,1700,10
+V0198,2026-02-21,Monitor 24,Monitores,Santo Domingo,Online,5,8900,6100,5
+V0199,2026-03-07,Monitor 24,Monitores,Santiago,Online,3,8900,6100,0
+V0200,2026-01-20,Teclado,Accesorios,Santo Domingo,Tienda,4,1450,780,5
+V0201,2026-07-22,Laptop 14,Computadoras,Santiago,Tienda,3,38500,28500,0
+V0202,2026-04-05,Teclado,Accesorios,La Romana,Online,5,1450,780,10
+V0203,2026-08-29,Memoria RAM 16 GB,Componentes,Santiago,Tienda,2,2800,1700,10
+V0204,2026-06-08,Laptop 14,Computadoras,La Romana,Online,5,38500,28500,0
+V0205,2026-01-17,Memoria RAM 16 GB,Componentes,La Romana,Online,3,2800,1700,10
+V0206,2026-02-05,Laptop 14,Computadoras,Santo Domingo,Tienda,3,38500,28500,10
+V0207,2026-01-25,Laptop 14,Computadoras,Santo Domingo,Tienda,4,38500,28500,10
+V0208,2026-06-21,Mouse USB,Accesorios,La Romana,Online,5,650,290,0
+V0209,2026-06-17,Teclado,Accesorios,Santo Domingo,Online,5,1450,780,10
+V0210,2026-01-09,Mouse USB,Accesorios,La Romana,Online,2,650,290,10
+V0211,2026-03-02,Teclado,Accesorios,Santiago,Tienda,3,1450,780,5
+V0212,2026-04-12,Laptop 14,Computadoras,Santiago,Tienda,1,38500,28500,10
+V0213,2026-06-19,Laptop 14,Computadoras,Santo Domingo,Tienda,1,38500,28500,5
+V0214,2026-02-02,Monitor 24,Monitores,La Romana,Tienda,1,8900,6100,0
+V0215,2026-02-25,SSD 500 GB,Almacenamiento,Santo Domingo,Online,2,3200,2100,0
+V0216,2026-08-08,Mouse USB,Accesorios,Santo Domingo,Tienda,5,650,290,5
+V0217,2026-01-29,Monitor 24,Monitores,La Romana,Tienda,2,8900,6100,0
+V0218,2026-07-22,Mouse USB,Accesorios,Santo Domingo,Online,1,650,290,0
+V0219,2026-01-14,Mouse USB,Accesorios,Santo Domingo,Online,5,650,290,0
+V0220,2026-01-17,Memoria RAM 16 GB,Componentes,Santiago,Online,3,2800,1700,0
+V0221,2026-05-09,Teclado,Accesorios,Santo Domingo,Tienda,5,1450,780,5
+V0222,2026-06-14,Teclado,Accesorios,Santo Domingo,Tienda,4,1450,780,10
+V0223,2026-06-25,Teclado,Accesorios,Santo Domingo,Online,4,1450,780,0
+V0224,2026-03-24,Laptop 14,Computadoras,La Romana,Tienda,1,38500,28500,0
+V0225,2026-06-09,Mouse USB,Accesorios,La Romana,Online,4,650,290,5
+V0226,2026-05-10,Teclado,Accesorios,La Romana,Online,1,1450,780,0
+V0227,2026-06-16,Memoria RAM 16 GB,Componentes,La Romana,Tienda,4,2800,1700,10
+V0228,2026-04-16,Monitor 24,Monitores,Santiago,Online,4,8900,6100,10
+V0229,2026-01-25,Memoria RAM 16 GB,Componentes,Santiago,Online,3,2800,1700,5
+V0230,2026-02-09,Mouse USB,Accesorios,La Romana,Online,1,650,290,0
+V0231,2026-01-24,Laptop 14,Computadoras,Santiago,Tienda,3,38500,28500,0
+V0232,2026-01-16,SSD 500 GB,Almacenamiento,La Romana,Online,1,3200,2100,10
+V0233,2026-08-12,Mouse USB,Accesorios,La Romana,Online,1,650,290,5
+V0234,2026-03-21,SSD 500 GB,Almacenamiento,Santiago,Tienda,5,3200,2100,0
+V0235,2026-06-18,Monitor 24,Monitores,Santiago,Tienda,1,8900,6100,5
+V0236,2026-04-05,SSD 500 GB,Almacenamiento,Santo Domingo,Online,5,3200,2100,0
+V0237,2026-08-05,Teclado,Accesorios,La Romana,Tienda,5,1450,780,5
+V0238,2026-02-16,Laptop 14,Computadoras,Santiago,Online,3,38500,28500,5
+V0239,2026-02-16,Laptop 14,Computadoras,Santo Domingo,Online,1,38500,28500,0
+V0240,2026-06-12,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,5,2800,1700,0
+V0241,2026-04-18,Teclado,Accesorios,Santiago,Online,2,1450,780,5
+V0242,2026-07-04,Mouse USB,Accesorios,Santiago,Tienda,1,650,290,0
+V0243,2026-07-13,Monitor 24,Monitores,La Romana,Tienda,1,8900,6100,5
+V0244,2026-06-19,Teclado,Accesorios,Santiago,Online,5,1450,780,10
+V0245,2026-03-11,Teclado,Accesorios,Santo Domingo,Tienda,3,1450,780,10
+V0246,2026-03-14,Laptop 14,Computadoras,La Romana,Online,5,38500,28500,5
+V0247,2026-02-26,Laptop 14,Computadoras,Santiago,Tienda,1,38500,28500,0
+V0248,2026-08-31,Mouse USB,Accesorios,Santo Domingo,Tienda,3,650,290,5
+V0249,2026-01-31,Mouse USB,Accesorios,Santo Domingo,Online,4,650,290,0
+V0250,2026-04-08,Monitor 24,Monitores,La Romana,Tienda,5,8900,6100,5
+V0251,2026-04-12,Laptop 14,Computadoras,La Romana,Tienda,4,38500,28500,0
+V0252,2026-08-24,Teclado,Accesorios,Santo Domingo,Online,5,1450,780,10
+V0253,2026-04-14,SSD 500 GB,Almacenamiento,La Romana,Online,3,3200,2100,0
+V0254,2026-01-06,Teclado,Accesorios,Santiago,Tienda,5,1450,780,10
+V0255,2026-08-24,Memoria RAM 16 GB,Componentes,Santiago,Tienda,4,2800,1700,0
+V0256,2026-04-22,Monitor 24,Monitores,La Romana,Online,5,8900,6100,0
+V0257,2026-08-11,Teclado,Accesorios,Santiago,Online,2,1450,780,5
+V0258,2026-01-20,Monitor 24,Monitores,La Romana,Tienda,5,8900,6100,0
+V0259,2026-03-31,Mouse USB,Accesorios,La Romana,Tienda,2,650,290,0
+V0260,2026-03-07,Monitor 24,Monitores,Santo Domingo,Tienda,5,8900,6100,0
+V0261,2026-01-20,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,4,2800,1700,10
+V0262,2026-08-25,Memoria RAM 16 GB,Componentes,La Romana,Online,3,2800,1700,0
+V0263,2026-01-18,Teclado,Accesorios,Santiago,Online,3,1450,780,5
+V0264,2026-01-15,SSD 500 GB,Almacenamiento,Santiago,Tienda,3,3200,2100,10
+V0265,2026-01-10,Teclado,Accesorios,Santo Domingo,Online,3,1450,780,0
+V0266,2026-08-10,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,4,2800,1700,0
+V0267,2026-08-21,Teclado,Accesorios,La Romana,Tienda,3,1450,780,10
+V0268,2026-02-08,SSD 500 GB,Almacenamiento,Santo Domingo,Online,1,3200,2100,5
+V0269,2026-01-22,Memoria RAM 16 GB,Componentes,La Romana,Tienda,1,2800,1700,0
+V0270,2026-04-23,Memoria RAM 16 GB,Componentes,Santiago,Tienda,3,2800,1700,5
+V0271,2026-04-10,Mouse USB,Accesorios,Santiago,Online,5,650,290,0
+V0272,2026-06-15,Memoria RAM 16 GB,Componentes,Santiago,Tienda,3,2800,1700,0
+V0273,2026-06-23,SSD 500 GB,Almacenamiento,Santiago,Online,3,3200,2100,0
+V0274,2026-01-21,Mouse USB,Accesorios,La Romana,Tienda,3,650,290,5
+V0275,2026-06-28,Memoria RAM 16 GB,Componentes,La Romana,Online,2,2800,1700,0
+V0276,2026-05-24,Mouse USB,Accesorios,Santiago,Online,2,650,290,0
+V0277,2026-06-21,Memoria RAM 16 GB,Componentes,Santiago,Online,1,2800,1700,5
+V0278,2026-02-16,Mouse USB,Accesorios,Santo Domingo,Online,4,650,290,0
+V0279,2026-02-05,Monitor 24,Monitores,Santo Domingo,Tienda,3,8900,6100,0
+V0280,2026-07-17,SSD 500 GB,Almacenamiento,La Romana,Tienda,3,3200,2100,0
+V0281,2026-04-07,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,2,3200,2100,0
+V0282,2026-04-23,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,3,2800,1700,0
+V0283,2026-06-06,Teclado,Accesorios,Santiago,Online,2,1450,780,0
+V0284,2026-07-27,Mouse USB,Accesorios,Santiago,Tienda,3,650,290,10
+V0285,2026-07-16,Teclado,Accesorios,Santiago,Online,5,1450,780,10
+V0286,2026-07-29,Monitor 24,Monitores,Santo Domingo,Tienda,3,8900,6100,0
+V0287,2026-05-04,Memoria RAM 16 GB,Componentes,Santiago,Tienda,5,2800,1700,0
+V0288,2026-01-22,Mouse USB,Accesorios,Santo Domingo,Online,4,650,290,0
+V0289,2026-01-24,Teclado,Accesorios,Santo Domingo,Online,3,1450,780,0
+V0290,2026-01-14,Teclado,Accesorios,Santiago,Online,2,1450,780,10
+V0291,2026-04-06,Laptop 14,Computadoras,Santo Domingo,Tienda,3,38500,28500,0
+V0292,2026-06-16,Memoria RAM 16 GB,Componentes,Santiago,Tienda,2,2800,1700,0
+V0293,2026-08-23,Mouse USB,Accesorios,Santiago,Tienda,4,650,290,10
+V0294,2026-01-02,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,3,3200,2100,0
+V0295,2026-05-21,Monitor 24,Monitores,La Romana,Online,1,8900,6100,5
+V0296,2026-03-19,Monitor 24,Monitores,Santo Domingo,Tienda,2,8900,6100,10
+V0297,2026-07-23,Memoria RAM 16 GB,Componentes,La Romana,Online,1,2800,1700,0
+V0298,2026-06-02,Teclado,Accesorios,La Romana,Tienda,5,1450,780,0
+V0299,2026-02-06,Memoria RAM 16 GB,Componentes,Santiago,Online,1,2800,1700,5
+V0300,2026-05-27,Monitor 24,Monitores,Santiago,Tienda,1,8900,6100,5
+V0301,2026-05-15,Laptop 14,Computadoras,La Romana,Tienda,4,38500,28500,10
+V0302,2026-06-12,Laptop 14,Computadoras,Santiago,Online,3,38500,28500,0
+V0303,2026-07-21,Mouse USB,Accesorios,Santo Domingo,Online,2,650,290,0
+V0304,2026-07-08,SSD 500 GB,Almacenamiento,Santiago,Tienda,1,3200,2100,5
+V0305,2026-03-28,SSD 500 GB,Almacenamiento,La Romana,Tienda,4,3200,2100,10
+V0306,2026-02-16,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,4,2800,1700,0
+V0307,2026-02-21,Mouse USB,Accesorios,Santo Domingo,Tienda,1,650,290,5
+V0308,2026-05-12,Mouse USB,Accesorios,Santiago,Online,3,650,290,0
+V0309,2026-02-18,Memoria RAM 16 GB,Componentes,Santiago,Online,1,2800,1700,5
+V0310,2026-02-01,Mouse USB,Accesorios,Santiago,Online,4,650,290,10
+V0311,2026-03-28,Teclado,Accesorios,Santo Domingo,Online,4,1450,780,5
+V0312,2026-03-10,SSD 500 GB,Almacenamiento,Santo Domingo,Online,1,3200,2100,10
+V0313,2026-07-30,SSD 500 GB,Almacenamiento,Santo Domingo,Online,3,3200,2100,0
+V0314,2026-03-25,Laptop 14,Computadoras,La Romana,Online,3,38500,28500,10
+V0315,2026-07-03,SSD 500 GB,Almacenamiento,Santiago,Tienda,4,3200,2100,5
+V0316,2026-01-11,Teclado,Accesorios,La Romana,Online,5,1450,780,10
+V0317,2026-06-13,Mouse USB,Accesorios,Santo Domingo,Tienda,4,650,290,5
+V0318,2026-07-25,SSD 500 GB,Almacenamiento,La Romana,Tienda,1,3200,2100,0
+V0319,2026-06-23,SSD 500 GB,Almacenamiento,Santiago,Tienda,2,3200,2100,0
+V0320,2026-07-19,Monitor 24,Monitores,La Romana,Online,3,8900,6100,10
+V0321,2026-01-09,SSD 500 GB,Almacenamiento,La Romana,Tienda,4,3200,2100,5
+V0322,2026-04-24,Mouse USB,Accesorios,Santo Domingo,Tienda,5,650,290,5
+V0323,2026-03-22,Teclado,Accesorios,La Romana,Online,2,1450,780,0
+V0324,2026-07-08,Laptop 14,Computadoras,Santo Domingo,Online,5,38500,28500,10
+V0325,2026-01-31,SSD 500 GB,Almacenamiento,Santiago,Online,4,3200,2100,0
+V0326,2026-03-15,SSD 500 GB,Almacenamiento,La Romana,Online,2,3200,2100,0
+V0327,2026-08-07,Monitor 24,Monitores,Santo Domingo,Online,2,8900,6100,10
+V0328,2026-07-27,Laptop 14,Computadoras,La Romana,Online,3,38500,28500,0
+V0329,2026-05-19,SSD 500 GB,Almacenamiento,Santiago,Online,2,3200,2100,0
+V0330,2026-05-11,Mouse USB,Accesorios,Santo Domingo,Tienda,2,650,290,0
+V0331,2026-07-22,Monitor 24,Monitores,Santiago,Tienda,3,8900,6100,5
+V0332,2026-07-25,Teclado,Accesorios,La Romana,Tienda,5,1450,780,0
+V0333,2026-03-21,Laptop 14,Computadoras,Santiago,Online,5,38500,28500,10
+V0334,2026-07-30,Teclado,Accesorios,La Romana,Tienda,2,1450,780,5
+V0335,2026-01-19,Memoria RAM 16 GB,Componentes,Santiago,Online,5,2800,1700,5
+V0336,2026-08-13,Monitor 24,Monitores,La Romana,Tienda,2,8900,6100,10
+V0337,2026-08-22,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,5,3200,2100,0
+V0338,2026-02-12,Mouse USB,Accesorios,Santo Domingo,Online,2,650,290,5
+V0339,2026-08-18,SSD 500 GB,Almacenamiento,Santiago,Tienda,3,3200,2100,0
+V0340,2026-05-22,Memoria RAM 16 GB,Componentes,Santiago,Tienda,3,2800,1700,0
+V0341,2026-06-14,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,2,3200,2100,5
+V0342,2026-01-11,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,1,3200,2100,5
+V0343,2026-02-23,Memoria RAM 16 GB,Componentes,La Romana,Online,5,2800,1700,0
+V0344,2026-08-16,Teclado,Accesorios,La Romana,Online,3,1450,780,10
+V0345,2026-07-26,Monitor 24,Monitores,La Romana,Online,3,8900,6100,10
+V0346,2026-06-26,Laptop 14,Computadoras,Santo Domingo,Tienda,4,38500,28500,10
+V0347,2026-04-29,Teclado,Accesorios,Santo Domingo,Online,5,1450,780,0
+V0348,2026-08-09,Mouse USB,Accesorios,La Romana,Online,3,650,290,10
+V0349,2026-07-14,Monitor 24,Monitores,Santiago,Tienda,3,8900,6100,0
+V0350,2026-02-01,Teclado,Accesorios,Santiago,Online,2,1450,780,0
+V0351,2026-01-13,Laptop 14,Computadoras,Santiago,Online,5,38500,28500,10
+V0352,2026-08-10,Monitor 24,Monitores,Santo Domingo,Online,5,8900,6100,5
+V0353,2026-07-15,Monitor 24,Monitores,Santo Domingo,Online,5,8900,6100,10
+V0354,2026-08-14,Teclado,Accesorios,Santiago,Online,1,1450,780,0
+V0355,2026-05-10,Teclado,Accesorios,Santiago,Tienda,2,1450,780,5
+V0356,2026-01-13,Laptop 14,Computadoras,Santiago,Online,5,38500,28500,10
+V0357,2026-05-18,Mouse USB,Accesorios,Santo Domingo,Tienda,4,650,290,0
+V0358,2026-07-06,Mouse USB,Accesorios,Santiago,Online,3,650,290,0
+V0359,2026-01-14,Teclado,Accesorios,La Romana,Tienda,3,1450,780,5
+V0360,2026-04-09,Laptop 14,Computadoras,La Romana,Online,5,38500,28500,5
+V0361,2026-06-24,SSD 500 GB,Almacenamiento,La Romana,Tienda,2,3200,2100,0
+V0362,2026-04-06,Teclado,Accesorios,Santiago,Online,2,1450,780,0
+V0363,2026-05-11,SSD 500 GB,Almacenamiento,Santiago,Tienda,1,3200,2100,0
+V0364,2026-07-02,Monitor 24,Monitores,Santiago,Online,5,8900,6100,10
+V0365,2026-06-05,Monitor 24,Monitores,La Romana,Tienda,3,8900,6100,5
+V0366,2026-04-11,Monitor 24,Monitores,La Romana,Online,5,8900,6100,5
+V0367,2026-08-01,SSD 500 GB,Almacenamiento,La Romana,Online,5,3200,2100,5
+V0368,2026-07-28,Teclado,Accesorios,Santo Domingo,Online,3,1450,780,0
+V0369,2026-05-30,Teclado,Accesorios,Santiago,Tienda,5,1450,780,10
+V0370,2026-06-17,Mouse USB,Accesorios,La Romana,Tienda,1,650,290,10
+V0371,2026-05-15,Monitor 24,Monitores,La Romana,Online,2,8900,6100,0
+V0372,2026-05-27,Laptop 14,Computadoras,La Romana,Tienda,2,38500,28500,0
+V0373,2026-03-22,Teclado,Accesorios,Santiago,Tienda,4,1450,780,0
+V0374,2026-05-09,Teclado,Accesorios,La Romana,Online,1,1450,780,0
+V0375,2026-02-23,SSD 500 GB,Almacenamiento,La Romana,Online,4,3200,2100,10
+V0376,2026-02-14,Mouse USB,Accesorios,Santiago,Online,5,650,290,5
+V0377,2026-07-17,Memoria RAM 16 GB,Componentes,La Romana,Online,5,2800,1700,10
+V0378,2026-03-05,Monitor 24,Monitores,Santiago,Online,2,8900,6100,5
+V0379,2026-06-30,Mouse USB,Accesorios,Santo Domingo,Online,3,650,290,10
+V0380,2026-05-24,Mouse USB,Accesorios,La Romana,Online,3,650,290,0
+V0381,2026-06-23,SSD 500 GB,Almacenamiento,La Romana,Online,4,3200,2100,5
+V0382,2026-03-16,Monitor 24,Monitores,Santo Domingo,Online,1,8900,6100,5
+V0383,2026-06-17,Teclado,Accesorios,Santiago,Online,2,1450,780,0
+V0384,2026-03-11,SSD 500 GB,Almacenamiento,La Romana,Online,2,3200,2100,0
+V0385,2026-07-09,SSD 500 GB,Almacenamiento,La Romana,Tienda,2,3200,2100,0
+V0386,2026-08-20,Memoria RAM 16 GB,Componentes,La Romana,Tienda,2,2800,1700,0
+V0387,2026-04-16,Laptop 14,Computadoras,Santiago,Online,1,38500,28500,0
+V0388,2026-05-21,Laptop 14,Computadoras,Santo Domingo,Online,4,38500,28500,10
+V0389,2026-02-21,Memoria RAM 16 GB,Componentes,Santiago,Online,3,2800,1700,0
+V0390,2026-06-16,Laptop 14,Computadoras,La Romana,Tienda,5,38500,28500,0
+V0391,2026-04-17,Monitor 24,Monitores,Santo Domingo,Tienda,4,8900,6100,10
+V0392,2026-08-28,Monitor 24,Monitores,La Romana,Online,1,8900,6100,0
+V0393,2026-05-26,Mouse USB,Accesorios,La Romana,Tienda,3,650,290,5
+V0394,2026-06-14,Teclado,Accesorios,La Romana,Online,2,1450,780,10
+V0395,2026-02-19,Mouse USB,Accesorios,Santo Domingo,Online,2,650,290,10
+V0396,2026-03-07,Memoria RAM 16 GB,Componentes,La Romana,Tienda,1,2800,1700,5
+V0397,2026-05-26,Mouse USB,Accesorios,La Romana,Tienda,2,650,290,10
+V0398,2026-05-12,Teclado,Accesorios,Santiago,Tienda,4,1450,780,0
+V0399,2026-02-05,Monitor 24,Monitores,Santiago,Online,2,8900,6100,0
+V0400,2026-04-09,Mouse USB,Accesorios,Santo Domingo,Online,3,650,290,5
+V0401,2026-05-30,Mouse USB,Accesorios,La Romana,Tienda,3,650,290,5
+V0402,2026-03-02,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,4,2800,1700,5
+V0403,2026-04-14,Monitor 24,Monitores,La Romana,Online,1,8900,6100,5
+V0404,2026-06-07,Mouse USB,Accesorios,Santo Domingo,Tienda,2,650,290,10
+V0405,2026-04-27,Monitor 24,Monitores,La Romana,Online,4,8900,6100,10
+V0406,2026-07-25,SSD 500 GB,Almacenamiento,La Romana,Tienda,2,3200,2100,0
+V0407,2026-04-25,SSD 500 GB,Almacenamiento,La Romana,Online,1,3200,2100,0
+V0408,2026-08-01,Laptop 14,Computadoras,La Romana,Tienda,5,38500,28500,0
+V0409,2026-03-25,Monitor 24,Monitores,La Romana,Online,1,8900,6100,0
+V0410,2026-05-30,Memoria RAM 16 GB,Componentes,Santiago,Tienda,5,2800,1700,10
+V0411,2026-04-27,Laptop 14,Computadoras,Santo Domingo,Online,4,38500,28500,0
+V0412,2026-04-29,SSD 500 GB,Almacenamiento,La Romana,Online,1,3200,2100,10
+V0413,2026-07-29,Mouse USB,Accesorios,Santo Domingo,Tienda,5,650,290,0
+V0414,2026-04-19,Laptop 14,Computadoras,Santiago,Tienda,5,38500,28500,0
+V0415,2026-08-28,Laptop 14,Computadoras,Santiago,Tienda,3,38500,28500,10
+V0416,2026-07-16,Monitor 24,Monitores,Santo Domingo,Online,3,8900,6100,10
+V0417,2026-08-11,Teclado,Accesorios,Santiago,Online,1,1450,780,0
+V0418,2026-08-09,Memoria RAM 16 GB,Componentes,Santiago,Tienda,2,2800,1700,10
+V0419,2026-02-02,SSD 500 GB,Almacenamiento,La Romana,Tienda,1,3200,2100,0
+V0420,2026-04-29,Mouse USB,Accesorios,La Romana,Online,5,650,290,10
+V0421,2026-03-05,Monitor 24,Monitores,Santiago,Online,2,8900,6100,5
+V0422,2026-08-28,Monitor 24,Monitores,La Romana,Tienda,1,8900,6100,10
+V0423,2026-07-16,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,2,3200,2100,0
+V0424,2026-06-02,Laptop 14,Computadoras,Santo Domingo,Online,5,38500,28500,0
+V0425,2026-07-09,Monitor 24,Monitores,Santo Domingo,Online,4,8900,6100,0
+V0426,2026-02-25,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,5,3200,2100,5
+V0427,2026-07-28,Monitor 24,Monitores,La Romana,Online,5,8900,6100,5
+V0428,2026-03-19,Monitor 24,Monitores,Santo Domingo,Tienda,4,8900,6100,5
+V0429,2026-01-16,Mouse USB,Accesorios,La Romana,Tienda,4,650,290,10
+V0430,2026-03-30,Laptop 14,Computadoras,La Romana,Online,5,38500,28500,5
+V0431,2026-04-17,Memoria RAM 16 GB,Componentes,Santiago,Tienda,3,2800,1700,10
+V0432,2026-07-13,Monitor 24,Monitores,La Romana,Online,2,8900,6100,0
+V0433,2026-08-08,Mouse USB,Accesorios,La Romana,Tienda,4,650,290,0
+V0434,2026-04-16,SSD 500 GB,Almacenamiento,Santiago,Tienda,4,3200,2100,0
+V0435,2026-02-22,Mouse USB,Accesorios,Santiago,Tienda,4,650,290,5
+V0436,2026-05-18,Laptop 14,Computadoras,La Romana,Tienda,1,38500,28500,5
+V0437,2026-06-22,Teclado,Accesorios,La Romana,Tienda,1,1450,780,0
+V0438,2026-07-05,SSD 500 GB,Almacenamiento,La Romana,Tienda,4,3200,2100,0
+V0439,2026-03-19,Mouse USB,Accesorios,Santo Domingo,Tienda,2,650,290,0
+V0440,2026-07-13,Memoria RAM 16 GB,Componentes,Santiago,Tienda,5,2800,1700,0
+V0441,2026-08-23,Teclado,Accesorios,Santo Domingo,Online,3,1450,780,10
+V0442,2026-05-17,Teclado,Accesorios,La Romana,Online,3,1450,780,5
+V0443,2026-05-12,Mouse USB,Accesorios,Santiago,Online,1,650,290,10
+V0444,2026-08-23,Mouse USB,Accesorios,Santo Domingo,Online,3,650,290,10
+V0445,2026-05-25,Laptop 14,Computadoras,Santo Domingo,Tienda,1,38500,28500,5
+V0446,2026-08-28,SSD 500 GB,Almacenamiento,La Romana,Online,3,3200,2100,0
+V0447,2026-03-26,Monitor 24,Monitores,Santo Domingo,Online,5,8900,6100,0
+V0448,2026-05-21,Teclado,Accesorios,La Romana,Online,3,1450,780,10
+V0449,2026-06-14,Memoria RAM 16 GB,Componentes,La Romana,Online,4,2800,1700,0
+V0450,2026-07-23,Memoria RAM 16 GB,Componentes,Santiago,Tienda,2,2800,1700,10
+V0451,2026-08-23,Monitor 24,Monitores,La Romana,Tienda,5,8900,6100,0
+V0452,2026-08-30,Laptop 14,Computadoras,La Romana,Tienda,1,38500,28500,10
+V0453,2026-08-04,Monitor 24,Monitores,La Romana,Tienda,1,8900,6100,0
+V0454,2026-02-25,Laptop 14,Computadoras,La Romana,Online,3,38500,28500,0
+V0455,2026-06-13,SSD 500 GB,Almacenamiento,La Romana,Online,4,3200,2100,0
+V0456,2026-05-17,Laptop 14,Computadoras,La Romana,Online,1,38500,28500,0
+V0457,2026-07-04,SSD 500 GB,Almacenamiento,Santiago,Online,1,3200,2100,10
+V0458,2026-01-28,Monitor 24,Monitores,Santo Domingo,Tienda,2,8900,6100,0
+V0459,2026-05-15,SSD 500 GB,Almacenamiento,Santiago,Online,3,3200,2100,10
+V0460,2026-04-06,Laptop 14,Computadoras,Santiago,Online,5,38500,28500,0
+V0461,2026-02-27,Memoria RAM 16 GB,Componentes,Santiago,Tienda,1,2800,1700,0
+V0462,2026-04-08,Teclado,Accesorios,Santiago,Online,1,1450,780,0
+V0463,2026-02-13,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,4,2800,1700,5
+V0464,2026-08-08,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,2,3200,2100,0
+V0465,2026-08-16,Memoria RAM 16 GB,Componentes,La Romana,Online,3,2800,1700,0
+V0466,2026-06-25,Laptop 14,Computadoras,Santiago,Tienda,2,38500,28500,5
+V0467,2026-02-23,Laptop 14,Computadoras,La Romana,Tienda,4,38500,28500,0
+V0468,2026-02-11,Mouse USB,Accesorios,La Romana,Tienda,5,650,290,10
+V0469,2026-08-18,Memoria RAM 16 GB,Componentes,La Romana,Online,4,2800,1700,0
+V0470,2026-07-05,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,1,2800,1700,0
+V0471,2026-03-01,Teclado,Accesorios,Santo Domingo,Online,5,1450,780,10
+V0472,2026-01-08,Mouse USB,Accesorios,La Romana,Online,4,650,290,10
+V0473,2026-04-02,Monitor 24,Monitores,La Romana,Online,4,8900,6100,0
+V0474,2026-05-30,Memoria RAM 16 GB,Componentes,La Romana,Online,1,2800,1700,5
+V0475,2026-07-02,Monitor 24,Monitores,Santo Domingo,Tienda,3,8900,6100,0
+V0476,2026-07-02,Teclado,Accesorios,La Romana,Tienda,4,1450,780,5
+V0477,2026-01-28,Mouse USB,Accesorios,Santo Domingo,Tienda,3,650,290,10
+V0478,2026-07-14,Mouse USB,Accesorios,Santiago,Tienda,2,650,290,0
+V0479,2026-04-21,Monitor 24,Monitores,Santiago,Online,1,8900,6100,0
+V0480,2026-04-01,Laptop 14,Computadoras,La Romana,Tienda,5,38500,28500,5
+V0481,2026-01-04,Teclado,Accesorios,Santiago,Online,4,1450,780,0
+V0482,2026-08-19,Memoria RAM 16 GB,Componentes,La Romana,Tienda,5,2800,1700,0
+V0483,2026-04-08,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,3,2800,1700,5
+V0484,2026-05-07,Mouse USB,Accesorios,Santo Domingo,Tienda,2,650,290,10
+V0485,2026-04-18,Mouse USB,Accesorios,Santiago,Online,1,650,290,5
+V0486,2026-08-30,Mouse USB,Accesorios,Santo Domingo,Online,5,650,290,0
+V0487,2026-01-28,Teclado,Accesorios,Santo Domingo,Online,1,1450,780,10
+V0488,2026-08-04,Mouse USB,Accesorios,La Romana,Online,3,650,290,10
+V0489,2026-04-21,Mouse USB,Accesorios,La Romana,Tienda,3,650,290,5
+V0490,2026-08-31,SSD 500 GB,Almacenamiento,La Romana,Tienda,4,3200,2100,5
+V0491,2026-04-12,Monitor 24,Monitores,Santiago,Online,4,8900,6100,0
+V0492,2026-04-07,Mouse USB,Accesorios,Santiago,Online,3,650,290,0
+V0493,2026-02-21,SSD 500 GB,Almacenamiento,La Romana,Tienda,5,3200,2100,0
+V0494,2026-04-29,Memoria RAM 16 GB,Componentes,La Romana,Tienda,4,2800,1700,5
+V0495,2026-01-18,Memoria RAM 16 GB,Componentes,Santiago,Online,2,2800,1700,5
+V0496,2026-03-06,Monitor 24,Monitores,La Romana,Tienda,4,8900,6100,10
+V0497,2026-04-25,Laptop 14,Computadoras,La Romana,Online,5,38500,28500,10
+V0498,2026-05-10,SSD 500 GB,Almacenamiento,La Romana,Online,5,3200,2100,0
+V0499,2026-06-29,Mouse USB,Accesorios,La Romana,Tienda,1,650,290,0
+V0500,2026-06-20,Memoria RAM 16 GB,Componentes,Santiago,Tienda,5,2800,1700,0
+V0501,2026-06-15,SSD 500 GB,Almacenamiento,La Romana,Online,3,3200,2100,10
+V0502,2026-01-03,Laptop 14,Computadoras,Santo Domingo,Online,2,38500,28500,0
+V0503,2026-04-06,Teclado,Accesorios,Santiago,Online,5,1450,780,0
+V0504,2026-01-07,Mouse USB,Accesorios,Santiago,Tienda,3,650,290,10
+V0505,2026-01-30,Laptop 14,Computadoras,La Romana,Tienda,3,38500,28500,5
+V0506,2026-04-27,Mouse USB,Accesorios,Santo Domingo,Online,3,650,290,10
+V0507,2026-04-23,Laptop 14,Computadoras,La Romana,Online,3,38500,28500,0
+V0508,2026-01-12,Mouse USB,Accesorios,La Romana,Tienda,1,650,290,5
+V0509,2026-01-28,Memoria RAM 16 GB,Componentes,La Romana,Tienda,2,2800,1700,0
+V0510,2026-02-10,SSD 500 GB,Almacenamiento,Santiago,Online,4,3200,2100,0
+V0511,2026-06-11,Teclado,Accesorios,Santo Domingo,Tienda,4,1450,780,10
+V0512,2026-07-08,Laptop 14,Computadoras,La Romana,Tienda,4,38500,28500,10
+V0513,2026-01-02,Teclado,Accesorios,La Romana,Tienda,2,1450,780,5
+V0514,2026-07-27,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,5,2800,1700,0
+V0515,2026-03-25,Mouse USB,Accesorios,Santo Domingo,Online,1,650,290,5
+V0516,2026-08-09,Memoria RAM 16 GB,Componentes,Santiago,Online,5,2800,1700,10
+V0517,2026-04-11,SSD 500 GB,Almacenamiento,La Romana,Tienda,3,3200,2100,5
+V0518,2026-06-08,Teclado,Accesorios,Santo Domingo,Online,5,1450,780,0
+V0519,2026-02-04,Memoria RAM 16 GB,Componentes,Santiago,Tienda,2,2800,1700,5
+V0520,2026-02-16,Laptop 14,Computadoras,Santiago,Tienda,5,38500,28500,10
+V0521,2026-06-02,Teclado,Accesorios,Santo Domingo,Online,4,1450,780,0
+V0522,2026-06-12,Teclado,Accesorios,La Romana,Tienda,5,1450,780,0
+V0523,2026-03-15,Teclado,Accesorios,Santo Domingo,Tienda,3,1450,780,10
+V0524,2026-01-14,SSD 500 GB,Almacenamiento,Santiago,Tienda,4,3200,2100,0
+V0525,2026-07-28,Monitor 24,Monitores,Santiago,Online,4,8900,6100,10
+V0526,2026-07-01,Teclado,Accesorios,Santiago,Online,2,1450,780,0
+V0527,2026-01-08,SSD 500 GB,Almacenamiento,Santo Domingo,Online,1,3200,2100,5
+V0528,2026-05-18,Monitor 24,Monitores,Santiago,Tienda,4,8900,6100,10
+V0529,2026-05-11,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,3,3200,2100,5
+V0530,2026-07-30,SSD 500 GB,Almacenamiento,Santo Domingo,Online,5,3200,2100,0
+V0531,2026-01-27,Teclado,Accesorios,La Romana,Tienda,3,1450,780,0
+V0532,2026-03-09,Teclado,Accesorios,Santiago,Tienda,4,1450,780,0
+V0533,2026-02-23,Monitor 24,Monitores,La Romana,Online,5,8900,6100,10
+V0534,2026-06-07,Monitor 24,Monitores,Santo Domingo,Tienda,2,8900,6100,0
+V0535,2026-03-31,SSD 500 GB,Almacenamiento,La Romana,Online,5,3200,2100,0
+V0536,2026-06-30,Mouse USB,Accesorios,Santiago,Online,5,650,290,5
+V0537,2026-08-19,SSD 500 GB,Almacenamiento,La Romana,Tienda,2,3200,2100,10
+V0538,2026-03-12,Laptop 14,Computadoras,La Romana,Tienda,2,38500,28500,0
+V0539,2026-07-02,Monitor 24,Monitores,Santiago,Tienda,4,8900,6100,10
+V0540,2026-05-28,Monitor 24,Monitores,La Romana,Online,4,8900,6100,10
+V0541,2026-01-20,Teclado,Accesorios,La Romana,Tienda,4,1450,780,5
+V0542,2026-08-28,Memoria RAM 16 GB,Componentes,Santiago,Online,4,2800,1700,5
+V0543,2026-01-01,SSD 500 GB,Almacenamiento,La Romana,Tienda,4,3200,2100,5
+V0544,2026-07-23,Laptop 14,Computadoras,La Romana,Online,2,38500,28500,10
+V0545,2026-05-07,Monitor 24,Monitores,Santiago,Online,3,8900,6100,5
+V0546,2026-05-28,SSD 500 GB,Almacenamiento,Santo Domingo,Online,3,3200,2100,0
+V0547,2026-01-26,Laptop 14,Computadoras,La Romana,Online,1,38500,28500,0
+V0548,2026-04-23,Monitor 24,Monitores,Santiago,Tienda,4,8900,6100,0
+V0549,2026-08-21,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,2,2800,1700,5
+V0550,2026-06-17,Laptop 14,Computadoras,Santiago,Online,1,38500,28500,5
+V0551,2026-08-20,Memoria RAM 16 GB,Componentes,La Romana,Tienda,1,2800,1700,10
+V0552,2026-03-20,Memoria RAM 16 GB,Componentes,La Romana,Tienda,4,2800,1700,0
+V0553,2026-01-25,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,4,2800,1700,0
+V0554,2026-06-01,Monitor 24,Monitores,Santo Domingo,Online,1,8900,6100,0
+V0555,2026-03-29,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,2,2800,1700,10
+V0556,2026-02-28,Laptop 14,Computadoras,Santiago,Tienda,1,38500,28500,0
+V0557,2026-04-05,Mouse USB,Accesorios,Santiago,Tienda,4,650,290,0
+V0558,2026-06-23,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,5,2800,1700,0
+V0559,2026-06-16,SSD 500 GB,Almacenamiento,Santo Domingo,Online,3,3200,2100,0
+V0560,2026-07-11,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,5,2800,1700,10
+V0561,2026-01-23,Monitor 24,Monitores,Santo Domingo,Tienda,1,8900,6100,10
+V0562,2026-04-20,Mouse USB,Accesorios,Santiago,Tienda,2,650,290,5
+V0563,2026-01-22,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,1,2800,1700,5
+V0564,2026-05-13,Monitor 24,Monitores,La Romana,Tienda,4,8900,6100,5
+V0565,2026-01-14,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,4,2800,1700,0
+V0566,2026-05-08,Monitor 24,Monitores,La Romana,Tienda,5,8900,6100,0
+V0567,2026-08-28,Mouse USB,Accesorios,Santiago,Tienda,4,650,290,10
+V0568,2026-05-20,Mouse USB,Accesorios,La Romana,Tienda,4,650,290,0
+V0569,2026-05-31,Laptop 14,Computadoras,Santo Domingo,Tienda,3,38500,28500,0
+V0570,2026-08-25,Laptop 14,Computadoras,Santo Domingo,Online,5,38500,28500,5
+V0571,2026-07-02,Memoria RAM 16 GB,Componentes,La Romana,Online,4,2800,1700,10
+V0572,2026-06-13,Laptop 14,Computadoras,La Romana,Tienda,3,38500,28500,0
+V0573,2026-01-21,Mouse USB,Accesorios,La Romana,Tienda,2,650,290,5
+V0574,2026-05-31,Teclado,Accesorios,La Romana,Tienda,3,1450,780,10
+V0575,2026-08-05,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,2,2800,1700,0
+V0576,2026-01-30,Teclado,Accesorios,Santiago,Tienda,3,1450,780,0
+V0577,2026-01-04,Laptop 14,Computadoras,La Romana,Tienda,1,38500,28500,0
+V0578,2026-03-30,Teclado,Accesorios,La Romana,Online,2,1450,780,5
+V0579,2026-07-11,Monitor 24,Monitores,Santiago,Tienda,1,8900,6100,5
+V0580,2026-03-11,Teclado,Accesorios,La Romana,Tienda,3,1450,780,0
+V0581,2026-04-27,Teclado,Accesorios,La Romana,Online,1,1450,780,10
+V0582,2026-02-12,SSD 500 GB,Almacenamiento,Santiago,Tienda,3,3200,2100,0
+V0583,2026-06-22,SSD 500 GB,Almacenamiento,La Romana,Tienda,2,3200,2100,0
+V0584,2026-08-08,Laptop 14,Computadoras,Santo Domingo,Tienda,1,38500,28500,10
+V0585,2026-04-09,Mouse USB,Accesorios,Santo Domingo,Tienda,1,650,290,10
+V0586,2026-03-24,Monitor 24,Monitores,Santo Domingo,Online,3,8900,6100,5
+V0587,2026-05-27,Laptop 14,Computadoras,Santiago,Tienda,5,38500,28500,0
+V0588,2026-02-27,Monitor 24,Monitores,La Romana,Tienda,4,8900,6100,0
+V0589,2026-08-10,Teclado,Accesorios,Santiago,Online,3,1450,780,0
+V0590,2026-04-27,SSD 500 GB,Almacenamiento,Santo Domingo,Online,2,3200,2100,5
+V0591,2026-07-20,SSD 500 GB,Almacenamiento,Santiago,Tienda,4,3200,2100,5
+V0592,2026-05-07,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,2,3200,2100,0
+V0593,2026-01-07,Teclado,Accesorios,Santo Domingo,Online,1,1450,780,5
+V0594,2026-07-14,Laptop 14,Computadoras,La Romana,Online,3,38500,28500,0
+V0595,2026-05-16,Monitor 24,Monitores,Santo Domingo,Online,4,8900,6100,0
+V0596,2026-07-02,Monitor 24,Monitores,Santiago,Tienda,1,8900,6100,0
+V0597,2026-04-16,SSD 500 GB,Almacenamiento,La Romana,Online,4,3200,2100,0
+V0598,2026-01-25,SSD 500 GB,Almacenamiento,La Romana,Tienda,4,3200,2100,0
+V0599,2026-05-26,SSD 500 GB,Almacenamiento,Santo Domingo,Online,2,3200,2100,0
+V0600,2026-03-08,Mouse USB,Accesorios,Santiago,Online,3,650,290,5
+V0601,2026-03-11,Teclado,Accesorios,Santo Domingo,Tienda,2,1450,780,0
+V0602,2026-01-28,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,2,3200,2100,10
+V0603,2026-03-22,Teclado,Accesorios,Santiago,Tienda,5,1450,780,5
+V0604,2026-04-26,Monitor 24,Monitores,Santiago,Online,3,8900,6100,0
+V0605,2026-02-10,Laptop 14,Computadoras,La Romana,Online,5,38500,28500,0
+V0606,2026-08-02,Monitor 24,Monitores,Santiago,Tienda,1,8900,6100,0
+V0607,2026-04-12,Mouse USB,Accesorios,La Romana,Tienda,3,650,290,5
+V0608,2026-01-08,Monitor 24,Monitores,Santiago,Online,5,8900,6100,0
+V0609,2026-04-29,Laptop 14,Computadoras,Santo Domingo,Tienda,1,38500,28500,0
+V0610,2026-08-01,Laptop 14,Computadoras,Santo Domingo,Tienda,2,38500,28500,10
+V0611,2026-06-25,Mouse USB,Accesorios,La Romana,Tienda,5,650,290,5
+V0612,2026-01-06,Laptop 14,Computadoras,Santo Domingo,Tienda,4,38500,28500,0
+V0613,2026-08-20,Laptop 14,Computadoras,Santiago,Tienda,1,38500,28500,10
+V0614,2026-02-13,Laptop 14,Computadoras,La Romana,Online,4,38500,28500,10
+V0615,2026-04-08,Laptop 14,Computadoras,La Romana,Online,2,38500,28500,5
+V0616,2026-08-21,Monitor 24,Monitores,Santo Domingo,Online,3,8900,6100,10
+V0617,2026-01-09,Monitor 24,Monitores,La Romana,Tienda,3,8900,6100,10
+V0618,2026-08-14,Teclado,Accesorios,La Romana,Online,1,1450,780,0
+V0619,2026-04-09,Mouse USB,Accesorios,Santo Domingo,Online,2,650,290,0
+V0620,2026-07-25,Memoria RAM 16 GB,Componentes,La Romana,Tienda,4,2800,1700,5
+V0621,2026-05-20,Teclado,Accesorios,Santiago,Online,5,1450,780,5
+V0622,2026-03-11,Teclado,Accesorios,Santo Domingo,Tienda,3,1450,780,0
+V0623,2026-08-18,Laptop 14,Computadoras,Santiago,Tienda,4,38500,28500,5
+V0624,2026-03-01,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,2,3200,2100,0
+V0625,2026-05-17,Mouse USB,Accesorios,La Romana,Tienda,2,650,290,10
+V0626,2026-08-28,Mouse USB,Accesorios,Santo Domingo,Tienda,2,650,290,5
+V0627,2026-06-28,Memoria RAM 16 GB,Componentes,Santiago,Tienda,3,2800,1700,0
+V0628,2026-08-31,SSD 500 GB,Almacenamiento,Santo Domingo,Online,5,3200,2100,5
+V0629,2026-05-06,Monitor 24,Monitores,Santo Domingo,Tienda,1,8900,6100,0
+V0630,2026-02-26,SSD 500 GB,Almacenamiento,Santo Domingo,Online,1,3200,2100,5
+V0631,2026-02-21,SSD 500 GB,Almacenamiento,Santo Domingo,Online,2,3200,2100,5
+V0632,2026-01-06,Laptop 14,Computadoras,Santo Domingo,Tienda,1,38500,28500,5
+V0633,2026-04-06,Laptop 14,Computadoras,La Romana,Online,5,38500,28500,0
+V0634,2026-03-19,Mouse USB,Accesorios,Santiago,Tienda,2,650,290,10
+V0635,2026-05-05,Memoria RAM 16 GB,Componentes,La Romana,Online,2,2800,1700,5
+V0636,2026-06-20,Monitor 24,Monitores,La Romana,Tienda,4,8900,6100,5
+V0637,2026-06-26,Memoria RAM 16 GB,Componentes,Santiago,Tienda,2,2800,1700,0
+V0638,2026-08-31,Memoria RAM 16 GB,Componentes,La Romana,Online,5,2800,1700,0
+V0639,2026-06-04,Monitor 24,Monitores,Santiago,Tienda,5,8900,6100,0
+V0640,2026-02-06,Teclado,Accesorios,Santiago,Tienda,2,1450,780,5
+V0641,2026-02-12,Mouse USB,Accesorios,La Romana,Tienda,3,650,290,10
+V0642,2026-03-09,Laptop 14,Computadoras,Santo Domingo,Tienda,1,38500,28500,5
+V0643,2026-07-21,Mouse USB,Accesorios,Santo Domingo,Tienda,1,650,290,10
+V0644,2026-07-07,Teclado,Accesorios,Santiago,Tienda,4,1450,780,10
+V0645,2026-03-31,Teclado,Accesorios,La Romana,Online,1,1450,780,10
+V0646,2026-06-16,SSD 500 GB,Almacenamiento,La Romana,Tienda,2,3200,2100,10
+V0647,2026-07-24,Laptop 14,Computadoras,Santo Domingo,Online,1,38500,28500,5
+V0648,2026-01-27,Mouse USB,Accesorios,Santo Domingo,Online,2,650,290,10
+V0649,2026-07-07,Monitor 24,Monitores,Santo Domingo,Tienda,3,8900,6100,10
+V0650,2026-01-08,Memoria RAM 16 GB,Componentes,Santiago,Tienda,5,2800,1700,10
+V0651,2026-01-14,Monitor 24,Monitores,Santo Domingo,Online,2,8900,6100,0
+V0652,2026-06-28,Teclado,Accesorios,La Romana,Online,3,1450,780,5
+V0653,2026-01-25,Monitor 24,Monitores,Santo Domingo,Online,5,8900,6100,10
+V0654,2026-01-14,Monitor 24,Monitores,Santiago,Tienda,4,8900,6100,0
+V0655,2026-07-30,Mouse USB,Accesorios,La Romana,Online,2,650,290,0
+V0656,2026-02-22,Laptop 14,Computadoras,Santo Domingo,Online,1,38500,28500,10
+V0657,2026-03-20,Laptop 14,Computadoras,Santiago,Online,4,38500,28500,5
+V0658,2026-06-14,Laptop 14,Computadoras,La Romana,Online,2,38500,28500,5
+V0659,2026-04-05,Teclado,Accesorios,Santo Domingo,Online,1,1450,780,5
+V0660,2026-04-30,Teclado,Accesorios,Santiago,Tienda,3,1450,780,0
+V0661,2026-07-12,Monitor 24,Monitores,La Romana,Tienda,1,8900,6100,5
+V0662,2026-04-16,SSD 500 GB,Almacenamiento,La Romana,Tienda,5,3200,2100,0
+V0663,2026-07-29,Teclado,Accesorios,La Romana,Online,5,1450,780,10
+V0664,2026-08-14,SSD 500 GB,Almacenamiento,Santo Domingo,Online,3,3200,2100,0
+V0665,2026-08-20,Teclado,Accesorios,La Romana,Tienda,5,1450,780,0
+V0666,2026-07-13,Laptop 14,Computadoras,Santiago,Tienda,2,38500,28500,0
+V0667,2026-02-02,Monitor 24,Monitores,Santo Domingo,Online,1,8900,6100,10
+V0668,2026-07-30,Monitor 24,Monitores,La Romana,Tienda,5,8900,6100,5
+V0669,2026-08-22,Mouse USB,Accesorios,La Romana,Tienda,1,650,290,10
+V0670,2026-04-12,SSD 500 GB,Almacenamiento,La Romana,Online,3,3200,2100,10
+V0671,2026-07-21,Laptop 14,Computadoras,La Romana,Online,1,38500,28500,10
+V0672,2026-02-07,Monitor 24,Monitores,La Romana,Tienda,1,8900,6100,0
+V0673,2026-08-11,Mouse USB,Accesorios,La Romana,Online,4,650,290,5
+V0674,2026-06-17,Teclado,Accesorios,Santiago,Online,1,1450,780,0
+V0675,2026-04-14,Mouse USB,Accesorios,Santo Domingo,Online,1,650,290,10
+V0676,2026-06-26,Mouse USB,Accesorios,Santo Domingo,Tienda,4,650,290,5
+V0677,2026-01-06,Mouse USB,Accesorios,Santiago,Online,3,650,290,5
+V0678,2026-08-08,Teclado,Accesorios,La Romana,Tienda,2,1450,780,0
+V0679,2026-07-10,Mouse USB,Accesorios,Santiago,Online,3,650,290,10
+V0680,2026-06-15,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,4,3200,2100,0
+V0681,2026-07-09,Teclado,Accesorios,Santiago,Online,1,1450,780,0
+V0682,2026-03-21,Laptop 14,Computadoras,La Romana,Online,2,38500,28500,0
+V0683,2026-02-19,Monitor 24,Monitores,Santo Domingo,Tienda,2,8900,6100,0
+V0684,2026-01-13,Teclado,Accesorios,Santiago,Tienda,3,1450,780,5
+V0685,2026-05-10,Teclado,Accesorios,Santiago,Tienda,1,1450,780,0
+V0686,2026-05-06,Mouse USB,Accesorios,La Romana,Online,2,650,290,10
+V0687,2026-05-22,SSD 500 GB,Almacenamiento,Santiago,Online,2,3200,2100,5
+V0688,2026-08-01,Memoria RAM 16 GB,Componentes,La Romana,Tienda,3,2800,1700,0
+V0689,2026-01-13,Teclado,Accesorios,Santo Domingo,Tienda,2,1450,780,0
+V0690,2026-02-22,Memoria RAM 16 GB,Componentes,Santiago,Online,5,2800,1700,0
+V0691,2026-01-03,Memoria RAM 16 GB,Componentes,Santiago,Tienda,2,2800,1700,0
+V0692,2026-03-06,Monitor 24,Monitores,La Romana,Online,3,8900,6100,10
+V0693,2026-08-07,Teclado,Accesorios,Santiago,Online,3,1450,780,0
+V0694,2026-03-19,Teclado,Accesorios,La Romana,Online,5,1450,780,0
+V0695,2026-05-11,Laptop 14,Computadoras,La Romana,Online,5,38500,28500,5
+V0696,2026-06-25,Mouse USB,Accesorios,Santo Domingo,Online,1,650,290,5
+V0697,2026-06-13,Mouse USB,Accesorios,Santiago,Online,3,650,290,5
+V0698,2026-02-08,Monitor 24,Monitores,La Romana,Tienda,1,8900,6100,10
+V0699,2026-03-23,Memoria RAM 16 GB,Componentes,La Romana,Tienda,1,2800,1700,10
+V0700,2026-03-08,Mouse USB,Accesorios,Santiago,Online,4,650,290,0
+V0701,2026-07-01,SSD 500 GB,Almacenamiento,La Romana,Tienda,3,3200,2100,0
+V0702,2026-05-17,Memoria RAM 16 GB,Componentes,La Romana,Online,3,2800,1700,5
+V0703,2026-08-04,Monitor 24,Monitores,La Romana,Tienda,3,8900,6100,0
+V0704,2026-02-02,Teclado,Accesorios,La Romana,Online,5,1450,780,0
+V0705,2026-08-19,Memoria RAM 16 GB,Componentes,Santiago,Tienda,2,2800,1700,5
+V0706,2026-07-10,Monitor 24,Monitores,Santiago,Online,3,8900,6100,5
+V0707,2026-05-30,Mouse USB,Accesorios,Santiago,Online,1,650,290,10
+V0708,2026-08-10,Laptop 14,Computadoras,La Romana,Tienda,4,38500,28500,0
+V0709,2026-01-31,SSD 500 GB,Almacenamiento,La Romana,Online,5,3200,2100,5
+V0710,2026-01-14,Teclado,Accesorios,Santo Domingo,Tienda,2,1450,780,5
+V0711,2026-05-26,Teclado,Accesorios,Santiago,Tienda,3,1450,780,0
+V0712,2026-05-05,Laptop 14,Computadoras,Santiago,Tienda,3,38500,28500,0
+V0713,2026-04-26,Laptop 14,Computadoras,Santiago,Tienda,2,38500,28500,0
+V0714,2026-07-21,Teclado,Accesorios,Santo Domingo,Tienda,5,1450,780,10
+V0715,2026-04-20,Memoria RAM 16 GB,Componentes,Santiago,Online,4,2800,1700,10
+V0716,2026-01-10,Laptop 14,Computadoras,La Romana,Tienda,3,38500,28500,0
+V0717,2026-07-13,Mouse USB,Accesorios,La Romana,Tienda,1,650,290,0
+V0718,2026-07-07,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,3,2800,1700,5
+V0719,2026-01-27,Monitor 24,Monitores,Santiago,Online,2,8900,6100,0
+V0720,2026-03-18,Laptop 14,Computadoras,Santiago,Online,5,38500,28500,5
+V0001,2026-01-29,Memoria RAM 16 GB,Componentes,Santo Domingo,Online,2,2800,1700,0
+V0002,2026-07-08,Monitor 24,Monitores,Santo Domingo,Tienda,5,8900,6100,10
+V0003,2026-01-08,Laptop 14,Computadoras,Santo Domingo,Tienda,2,38500,28500,0
+V0004,2026-02-20,SSD 500 GB,Almacenamiento,La Romana,Online,2,3200,2100,10
+V0005,2026-03-13,SSD 500 GB,Almacenamiento,Santo Domingo,Tienda,4,3200,2100,5
+V0006,2026-02-09,Mouse USB,Accesorios,Santo Domingo,Online,1,650,290,0
+V0007,2026-01-25,Teclado,Accesorios,Santiago,Online,5,1450,780,5
+V0008,2026-07-06,Laptop 14,Computadoras,Santiago,Tienda,4,38500,28500,0
+V0009,2026-03-17,SSD 500 GB,Almacenamiento,La Romana,Online,5,3200,2100,0
+V0010,2026-01-18,Memoria RAM 16 GB,Componentes,Santo Domingo,Tienda,3,2800,1700,0
+V0011,2026-08-10,Monitor 24,Monitores,Santo Domingo,Online,3,8900,6100,10
+V0012,2026-08-02,Memoria RAM 16 GB,Componentes,Santiago,Tienda,3,2800,1700,5
+ERROR_fecha,2026-02-30,SSD 500 GB,Almacenamiento,Santiago,Online,2,3200,2100,0
+ERROR_cantidad,2026-02-12,SSD 500 GB,Almacenamiento,Santiago,Online,-2,3200,2100,0
+ERROR_precio_unitario,2026-02-12,SSD 500 GB,Almacenamiento,Santiago,Online,2,,2100,0
+ERROR_descuento_pct,2026-02-12,SSD 500 GB,Almacenamiento,Santiago,Online,2,3200,2100,150
+ERROR_ciudad,2026-02-12,SSD 500 GB,Almacenamiento,,Online,2,3200,2100,0
