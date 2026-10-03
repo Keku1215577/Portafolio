@@ -1,0 +1,43 @@
+name: Python portfolio tests
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  analytics-tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Portafolio_TechRD/01_analisis_ventas
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run analytics tests
+        run: python -m unittest -v test_analizar.py
+
+  inventory-tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Portafolio_TechRD/02_gestor_inventario
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run inventory tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
