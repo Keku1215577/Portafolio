@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Proyecto de análisis comercial de TechRD con Python, SQL, SQLite, ETL, validación de datos y dashboard.">
+<title>Análisis de ventas E-commerce | Juan Sebastian</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2e;--text:#eef2ff;--muted:#aab4d0;--accent:#66d9ef;--line:#263252}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}.container{width:min(1080px,92%);margin:auto}
+header{padding:58px 0 38px;border-bottom:1px solid var(--line)}a{color:var(--accent);text-decoration:none}.eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:1.5px}h1{font-size:clamp(2.2rem,6vw,4rem);line-height:1.05;margin:12px 0}h2{font-size:1.5rem;margin-top:0}h3{font-size:1.2rem;margin-bottom:8px}.muted{color:var(--muted)}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.btn{display:inline-block;padding:10px 16px;border:1px solid var(--line);border-radius:9px}.btn.primary{background:var(--accent);color:#06101a;border-color:var(--accent);font-weight:700}
+main{padding:45px 0}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:25px 0 45px}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px}.metric strong{display:block;font-size:1.45rem}.metric span{color:var(--muted);font-size:.9rem}.two{display:grid;grid-template-columns:1.2fr .8fr;gap:22px}.list{padding-left:20px}.tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:5px 10px;margin:4px 4px 0 0;color:var(--muted);font-size:.85rem}footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);margin-top:45px}
+@media(max-width:800px){.grid{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}}@media(max-width:520px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="container">
+<div class="eyebrow">Proyecto de análisis de datos</div>
+<h1>Análisis de ventas E-commerce</h1>
+<p class="muted">Pipeline reproducible para transformar registros de ventas en información comercial mediante validación, limpieza, ETL, SQL, SQLite y visualización.</p>
+<div class="buttons">
+<a class="btn primary" href="salidas/dashboard.html">Abrir dashboard</a>
+<a class="btn" href="README.md">Documentación</a>
+<a class="btn" href="https://github.com/Keku1215577/Analisis_ventas_e-commerce" target="_blank" rel="noopener">Repositorio público</a>
+<a class="btn" href="../../index.html">Volver al portafolio</a>
+</div>
+</div></header>
+<main><div class="container">
+<section>
+<h2>Pregunta de negocio</h2>
+<p class="muted">¿Qué productos aportan más utilidad bruta, cómo varían las ventas por mes y cómo se distribuyen entre canales y ciudades?</p>
+</section>
+<section class="grid">
+<div class="card metric"><strong>737</strong><span>Filas recibidas</span></div>
+<div class="card metric"><strong>720</strong><span>Filas aceptadas</span></div>
+<div class="card metric"><strong>25.66%</strong><span>Margen bruto</span></div>
+<div class="card metric"><strong>RD$19.99 M</strong><span>Ingresos</span></div>
+</section>
+<section class="two">
+<div class="card">
+<h2>Proceso técnico</h2>
+ol class="list">
+<li>Lectura del CSV con soporte UTF-8 y BOM.</li>
+<li>Validación de campos, fechas, cantidades, importes y descuentos.</li>
+<li>Limpieza y normalización de datos.</li>
+<li>Cuarentena de filas rechazadas con motivo y fila original.</li>
+<li>Transformación monetaria a centavos para evitar errores de representación.</li>
+<li>Carga en SQLite con clave primaria e índice de fecha.</li>
+<li>Consultas agregadas y de ventana para indicadores comerciales.</li>
+<li>Generación de resultados, hallazgos y dashboard.</li>
+</ol>
+</div>
+<div class="card">
+<h2>Tecnologías</h2>
+<span class="tag">Python</span><span class="tag">SQL</span><span class="tag">SQLite</span><span class="tag">ETL</span><span class="tag">CSV</span><span class="tag">HTML</span><span class="tag">Testing</span>
+<h3>Indicadores</h3>
+<p class="muted">Ingresos, utilidad bruta, margen bruto, ticket promedio y variación mensual.</p>
+<h3>Resultado</h3>
+<p class="muted">El análisis separa validación, transformación y comunicación para producir resultados reproducibles y auditables.</p>
+</div>
+</section>
+<section class="card" style="margin-top:22px">
+<h2>Consideraciones</h2>
+<p class="muted">Los datos son sintéticos y cubren ocho meses. Los cambios mensuales son descriptivos y no demuestran estacionalidad ni causalidad.</p>
+<p class="muted">El proyecto conserva las filas rechazadas para facilitar auditoría y documentar problemas de calidad.</p>
+</section>
+<footer><div class="container">Juan Sebastian De la Cruz Amparo · Portafolio profesional</div></footer>
+</div></main>
+</body>
+</html>
