@@ -49,14 +49,14 @@ Aplicación orientada a gestión de inventario mediante API REST, operaciones CR
 
 **Tecnologías:** Node.js · Express · MongoDB · REST API
 
-[Ver repositorio](https://github.com/Keku1215577/Tarea5APICRUD)
+Repositorio académico actualmente no público.
 
 ###  Punto de venta
 Aplicación académica de escritorio desarrollada con JavaFX y PostgreSQL, enfocada en operaciones de venta y persistencia relacional.
 
 **Tecnologías:** Java · JavaFX · PostgreSQL
 
-[Ver repositorio](https://github.com/Keku1215577/ProyectoFinal)
+Repositorio académico actualmente no público.
 
 ###  Dashboards
 Colección de trabajos de visualización e indicadores para organizar información y facilitar su interpretación.
