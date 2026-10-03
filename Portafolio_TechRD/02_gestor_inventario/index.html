@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Gestor de inventario y ventas desarrollado con Python, Tkinter, SQLite y pruebas.">
+<title>Gestor de inventario y ventas | Juan Sebastian</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2e;--text:#eef2ff;--muted:#aab4d0;--accent:#66d9ef;--line:#263252}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}.container{width:min(1080px,92%);margin:auto}
+header{padding:58px 0 38px;border-bottom:1px solid var(--line)}a{color:var(--accent);text-decoration:none}.eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:1.5px}h1{font-size:clamp(2.2rem,6vw,4rem);line-height:1.05;margin:12px 0}h2{font-size:1.5rem;margin-top:0}.muted{color:var(--muted)}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.btn{display:inline-block;padding:10px 16px;border:1px solid var(--line);border-radius:9px}.btn.primary{background:var(--accent);color:#06101a;border-color:var(--accent);font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:30px 0}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}.tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:5px 10px;margin:4px 4px 0 0;color:var(--muted);font-size:.85rem}footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);margin-top:45px}
+@media(max-width:800px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="container">
+<div class="eyebrow">Proyecto de software y bases de datos</div>
+<h1>Gestor de inventario y ventas</h1>
+<p class="muted">Aplicación de escritorio orientada a controlar productos, existencias y ventas, con separación de responsabilidades y persistencia local.</p>
+<div class="buttons"><a class="btn primary" href="README.md">Documentación</a><a class="btn" href="../../index.html">Volver al portafolio</a></div>
+</div></header>
+<main><div class="container">
+<div class="grid">
+<div class="card"><h2>Arquitectura</h2><p class="muted">Interfaz con Tkinter/ttk, reglas de negocio en un servicio independiente y persistencia mediante SQLite.</p></div>
+<div class="card"><h2>Consistencia</h2><p class="muted">Las ventas y el descuento de stock ocurren dentro de una misma transacción.</p></div>
+<div class="card"><h2>Calidad</h2><p class="muted">Incluye siete pruebas del servicio y validaciones para evitar operaciones inválidas.</p></div>
+</div>
+<section class="card">
+<h2>Capacidades demostradas</h2>
+<p class="muted">CRUD de productos, control de stock, ventas, archivado, validación de entradas, consultas parametrizadas, transacciones, manejo de importes en centavos y exportación del historial.</p>
+<div><span class="tag">Python</span><span class="tag">Tkinter</span><span class="tag">SQLite</span><span class="tag">CRUD</span><span class="tag">Testing</span><span class="tag">Transactions</span></div>
+</section>
+<section class="card" style="margin-top:22px">
+<h2>Decisiones técnicas</h2>
+<p class="muted">El proyecto conserva el precio y costo de cada venta para proteger el historial frente a cambios posteriores del catálogo. El uso de consultas parametrizadas reduce riesgos al trabajar con datos introducidos por el usuario.</p>
+</section>
+<footer><div class="container">Juan Sebastian De la Cruz Amparo · Portafolio profesional</div></footer>
+</div></main>
+</body>
+</html>
