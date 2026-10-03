@@ -25,7 +25,20 @@ Proyecto complementario para Data Analytics y Business Intelligence.
 
 Demuestra organización de indicadores, visualización y presentación de información.
 
-### 4. Proyecto de inventario y ventas
+### 4. StoreSys — Sistema de gestión de almacenamiento
+
+Proyecto complementario para Software Development y Data Analytics.
+
+Demuestra:
+
+- Organización modular de JavaScript.
+- Interfaces orientadas a procesos de negocio.
+- CRUD y filtros.
+- Dashboards y KPIs.
+- Reportes operativos.
+- Presentación de información para toma de decisiones.
+
+### 5. Proyecto de inventario y ventas
 
 Dentro del repositorio principal de Portafolio.
 
@@ -41,17 +54,17 @@ Demuestra:
 - Pruebas.
 - Persistencia.
 
-### 5. SIMD vs. procesamiento secuencial
+### 6. SIMD vs. procesamiento secuencial
 
 Proyecto complementario para Software Development.
 
 Demuestra interés en rendimiento, vectorización y optimización.
 
-### 6. Comparación de procesamiento paralelo
+### 7. Comparación de procesamiento paralelo
 
 Proyecto complementario para demostrar trabajo con paralelismo y medición de rendimiento.
 
-### 7. Otros repositorios académicos
+### 8. Otros repositorios académicos
 
 Los demás repositorios públicos pueden conservarse como historial técnico, pero no deben ocupar el centro de la presentación profesional hasta que estén mejor documentados.
 
@@ -61,21 +74,23 @@ Para una vacante de Data Analyst, priorizar:
 
 1. Análisis de ventas E-commerce.
 2. Dashboards Personal.
-3. Portafolio.
-4. Proyecto de inventario y ventas.
+3. StoreSys.
+4. Portafolio.
+5. Proyecto de inventario y ventas.
 
 Para una vacante de Software Developer, priorizar:
 
 1. Gestor de inventario y ventas.
-2. SIMD vs. procesamiento secuencial.
-3. Comparación de procesamiento paralelo.
-4. Portafolio.
+2. StoreSys.
+3. SIMD vs. procesamiento secuencial.
+4. Comparación de procesamiento paralelo.
+5. Portafolio.
 
 Para una vacante de Database Administrator, priorizar:
 
 1. Gestor de inventario y ventas.
 2. Análisis de ventas con SQLite y SQL.
-3. Otros proyectos con PostgreSQL y MongoDB cuando estén disponibles públicamente y correctamente documentados.
+3. Proyectos con SQL Server, PostgreSQL y MongoDB cuando estén disponibles públicamente y correctamente documentados.
 
 ## Criterio de publicación
 
@@ -85,4 +100,15 @@ No se debe atribuir experiencia laboral, clientes reales o resultados de negocio
 
 ## Próxima prioridad
 
-La siguiente mejora de mayor impacto es documentar y publicar correctamente los proyectos con PostgreSQL y MongoDB que tengan suficiente calidad técnica para ser mostrados a reclutadores.
+La siguiente mejora de mayor impacto es convertir los ejercicios de bases de datos más sólidos en proyectos independientes, ejecutables y correctamente documentados.
+
+Antes de publicar un repositorio académico, se debe revisar:
+
+- Archivos de compilación.
+- Configuraciones locales.
+- Cadenas de conexión.
+- Credenciales y secretos.
+- README y pasos de ejecución.
+- Estado real del proyecto.
+
+El objetivo es que un reclutador pueda abrir el repositorio, entender qué problema resuelve, identificar las tecnologías utilizadas y distinguir claramente entre formación académica y experiencia profesional.
