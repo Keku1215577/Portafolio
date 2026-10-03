@@ -1,22 +1,143 @@
 <!doctype html>
-<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TechRD | Análisis de ventas</title>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Dashboard de análisis comercial de TechRD con Python, SQL y SQLite.">
+<title>TechRD | Dashboard de ventas</title>
 <style>
-:root{font-family:system-ui,sans-serif;color:#122c42;background:#eef3f8}*{box-sizing:border-box}body{margin:0}header{background:#102c43;color:white;padding:32px max(5vw,20px)}header small{color:#6fe0ca;letter-spacing:3px}h1{font-size:36px;margin:10px 0}header p{color:#cedde9}main{max-width:1240px;margin:auto;padding:24px}.filters,.cards,.grid{display:grid;gap:16px}.filters{grid-template-columns:repeat(4,1fr);margin-bottom:20px}label{font-size:13px;font-weight:600}select{display:block;width:100%;margin-top:8px;padding:12px;border:1px solid #c3d3e0;border-radius:8px;background:white}.cards{grid-template-columns:repeat(4,1fr)}article,section.panel{background:white;border-radius:12px;border:1px solid #dae5ed;padding:22px}article span{font-size:12px;color:#506677}article strong{display:block;font-size:25px;margin-top:10px}.grid{grid-template-columns:1fr 1fr;margin-top:20px}.insight{background:#eef8f6;border-left:4px solid #138c83;padding:14px 16px;border-radius:8px;margin-top:20px}.insight strong{display:block;margin-bottom:5px}.legend{color:#526a7c;font-size:12px}.insight{background:#eef8f6;border-left:4px solid #138c83;padding:14px 16px;border-radius:8px;margin-top:20px}.insight strong{display:block;margin-bottom:5px}.legend{color:#526a7c;font-size:12px}h2{font-size:18px;margin:0 0 20px}.barrow{margin:14px 0;font-size:13px}.barhead{display:flex;justify-content:space-between;gap:12px}.track{height:13px;background:#edf3f8;border-radius:6px;margin-top:7px}.fill{background:#138c83;height:100%;border-radius:6px}.note{color:#526a7c;font-size:13px;line-height:1.7}.tablewrap{overflow:auto;max-height:430px}table{border-collapse:collapse;width:100%;font-size:13px;white-space:nowrap}th,td{text-align:left;padding:12px;border-bottom:1px solid #e4ecf2}th{position:sticky;top:0;background:#f1f6fa}td.num{text-align:right}.full{margin-top:20px}button{padding:10px 18px;background:#0e716b;color:white;border:0;border-radius:6px;cursor:pointer}.sr{position:absolute;left:-9999px}@media(max-width:850px){.cards,.filters{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}h1{font-size:28px}}@media(max-width:460px){.cards,.filters{grid-template-columns:1fr}main{padding:12px}}
+:root{font-family:Inter,Segoe UI,Arial,sans-serif;color:#122c42;background:#eef3f8;--primary:#0e716b;--line:#dae5ed;--muted:#526a7c}
+*{box-sizing:border-box}body{margin:0}header{background:#102c43;color:#fff;padding:38px max(5vw,20px)}header small{color:#6fe0ca;letter-spacing:3px;font-weight:700}h1{font-size:38px;margin:10px 0}header p{color:#cedde9;max-width:800px}main{max-width:1240px;margin:auto;padding:24px}.filters,.cards,.grid{display:grid;gap:16px}.filters{grid-template-columns:repeat(4,1fr);margin-bottom:20px}label{font-size:13px;font-weight:700}select{display:block;width:100%;margin-top:8px;padding:12px;border:1px solid #c3d3e0;border-radius:8px;background:#fff}.cards{grid-template-columns:repeat(4,1fr)}article,section.panel,.insight{background:#fff;border-radius:12px;border:1px solid var(--line);padding:22px}article span{font-size:12px;color:#506677}article strong{display:block;font-size:25px;margin-top:10px}.grid{grid-template-columns:1fr 1fr;margin-top:20px}h2{font-size:18px;margin:0 0 20px}.barrow{margin:14px 0;font-size:13px}.barhead{display:flex;justify-content:space-between;gap:12px}.track{height:13px;background:#edf3f8;border-radius:6px;margin-top:7px}.fill{background:var(--primary);height:100%;border-radius:6px}.note,.legend{color:var(--muted);font-size:13px;line-height:1.7}.insight{margin-top:20px;background:#eef8f6;border-left:4px solid var(--primary)}.insight strong{display:block;margin-bottom:6px}.insight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:15px}.insight-card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:15px}.insight-card strong{font-size:13px}.tablewrap{overflow:auto;max-height:430px}table{border-collapse:collapse;width:100%;font-size:13px;white-space:nowrap}th,td{text-align:left;padding:12px;border-bottom:1px solid #e4ecf2}th{position:sticky;top:0;background:#f1f6fa}td.num{text-align:right}.full{margin-top:20px}button{padding:10px 18px;background:var(--primary);color:#fff;border:0;border-radius:6px;cursor:pointer}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.actions a{display:inline-block;padding:10px 14px;border:1px solid rgba(255,255,255,.35);border-radius:8px;color:#fff;text-decoration:none}.actions a.primary{background:#6fe0ca;color:#102c43;border-color:#6fe0ca;font-weight:700}
+@media(max-width:850px){.cards,.filters,.insight-grid{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}h1{font-size:30px}}@media(max-width:460px){.cards,.filters,.insight-grid{grid-template-columns:1fr}main{padding:12px}}
 </style>
-<header><small>TECHRD / DATA ANALYTICS</small><h1>Ventas que cuentan una historia</h1><p>Ingresos, rentabilidad y canales · Datos ficticios de práctica · Moneda DOP</p></header>
-<main><div class="filters"><label>Mes<select id="month"></select></label><label>Ciudad<select id="city"></select></label><label>Canal<select id="channel"></select></label><label>Categoría<select id="category"></select></label></div>
-<div class="cards" aria-live="polite"><article><span>INGRESOS NETOS DE DESCUENTOS</span><strong id="revenue"></strong></article><article><span>UTILIDAD BRUTA</span><strong id="profit"></strong></article><article><span>MARGEN BRUTO</span><strong id="margin"></strong></article><article><span>TICKET PROMEDIO</span><strong id="ticket"></strong></article></div>
-<p class="note" id="count"></p><div class="grid"><section class="panel"><h2>Ingresos por mes</h2><div id="months"></div></section><section class="panel"><h2>Ingresos por categoría</h2><div id="categories"></div></section></div><div class="grid"><section class="panel"><h2>Utilidad por producto</h2><div id="products"></div></section><section class="panel"><h2>Ingresos por canal</h2><div id="channels"></div></section></div><section class="panel full"><h2>Ingresos por ciudad</h2><div id="cities"></div></section><div class="insight" id="insight"><strong>Insight principal</strong><span></span></div><div class="grid"><section class="panel"><h2>Utilidad por producto</h2><div id="products"></div></section><section class="panel"><h2>Participación por canal</h2><div id="channels"></div></section></div><div class="insight" id="insight"><strong>Insight principal</strong><span></span></div>
-<section class="panel full"><h2>Detalle de ventas</h2><button id="reset">Restablecer filtros</button><p class="note">Se muestran las primeras 100 ventas de la selección, ordenadas por fecha. Los indicadores incluyen todas las filas seleccionadas.</p><div class="tablewrap"><table><thead><tr><th>Fecha</th><th>Producto</th><th>Ciudad</th><th>Canal</th><th>Unidades</th><th>Ingresos RD$</th><th>Utilidad RD$</th></tr></thead><tbody id="detail"></tbody></table></div></section>
-<p class="legend">La barra de producto representa utilidad bruta; las demás barras representan ingresos.</p><p class="legend">La barra de producto representa utilidad bruta; las demás barras representan ingresos.</p><p class="note" id="quality"></p><p class="note">Cada registro representa una venta de un producto. Utilidad bruta = ingresos después del descuento − costo de mercancía. No incluye impuestos, devoluciones ni gastos operativos. El margen es ponderado por ingresos. El reporte funciona sin conexión.</p></main>
+</head>
+<body>
+<header>
+<small>TECHRD / DATA ANALYTICS</small>
+<h1>Dashboard de ventas</h1>
+<p>Ingresos, rentabilidad, productos, canales y ciudades. Dataset ficticio de práctica profesional. Moneda: DOP.</p>
+<div class="actions">
+<a class="primary" href="../../index.html">Volver al portafolio</a>
+<a href="README.md">Documentación</a>
+<a href="CASE_STUDY.md">Caso de estudio</a>
+<a href="INTERVIEW_GUIDE.md">Guía de entrevista</a>
+</div>
+</header>
+<main>
+<div class="filters">
+<label>Mes<select id="month"></select></label>
+<label>Ciudad<select id="city"></select></label>
+<label>Canal<select id="channel"></select></label>
+<label>Categoría<select id="category"></select></label>
+</div>
+<div class="cards" aria-live="polite">
+<article><span>INGRESOS NETOS DE DESCUENTOS</span><strong id="revenue"></strong></article>
+<article><span>UTILIDAD BRUTA</span><strong id="profit"></strong></article>
+<article><span>MARGEN BRUTO</span><strong id="margin"></strong></article>
+<article><span>TICKET PROMEDIO</span><strong id="ticket"></strong></article>
+</div>
+<p class="note" id="count"></p>
+<div class="grid">
+<section class="panel"><h2>Ingresos por mes</h2><div id="months"></div></section>
+<section class="panel"><h2>Ingresos por categoría</h2><div id="categories"></div></section>
+</div>
+<div class="grid">
+<section class="panel"><h2>Utilidad por producto</h2><div id="products"></div></section>
+<section class="panel"><h2>Ingresos por canal</h2><div id="channels"></div></section>
+</div>
+<section class="panel full"><h2>Ingresos por ciudad</h2><div id="cities"></div></section>
+<section class="insight full">
+<strong>Insights de la selección</strong>
+<div class="insight-grid">
+<div class="insight-card"><strong>Producto líder</strong><div id="topProduct"></div></div>
+<div class="insight-card"><strong>Mayor margen</strong><div id="topMargin"></div></div>
+<div class="insight-card"><strong>Canal líder por ingresos</strong><div id="topChannel"></div></div>
+</div>
+</section>
+<section class="panel full">
+<h2>Detalle de ventas</h2>
+<button id="reset">Restablecer filtros</button>
+<p class="note">Se muestran hasta 100 ventas de la selección, ordenadas por fecha. Los indicadores resumen todas las filas seleccionadas.</p>
+<div class="tablewrap"><table><thead><tr><th>Fecha</th><th>Producto</th><th>Ciudad</th><th>Canal</th><th>Unidades</th><th>Ingresos DOP</th><th>Utilidad DOP</th></tr></thead><tbody id="detail"></tbody></table></div>
+</section>
+<p class="legend">La vista de producto representa utilidad bruta. Las vistas de mes, categoría, canal y ciudad representan ingresos. La utilidad bruta no equivale a beneficio neto.</p>
+<p class="note" id="quality"></p>
+</main>
 <script id="dataset" type="application/json">__DATA__</script>
 <script>
 'use strict';
-const data=JSON.parse(document.getElementById('dataset').textContent), $=id=>document.getElementById(id);
+const data=JSON.parse(document.getElementById('dataset').textContent);
+const $=id=>document.getElementById(id);
 const money=n=>new Intl.NumberFormat('es-DO',{style:'currency',currency:'DOP',maximumFractionDigits:2}).format(n);
 const filters=[['month',r=>r.fecha.slice(0,7)],['city',r=>r.ciudad],['channel',r=>r.canal],['category',r=>r.categoria]];
-for(const [id,key] of filters){for(const v of ['',...new Set(data.rows.map(key).sort())]){const o=document.createElement('option');o.value=v;o.textContent=v||'Todos';$(id).append(o)}$(id).addEventListener('change',render)}
-function bars(id,rows,key,sort,metric='ingreso_centavos'){const sums=new Map();for(const r of rows)sums.set(key(r),(sums.get(key(r))||0)+r[metric]);const entries=[...sums].sort(sort);const max=Math.max(1,...entries.map(e=>e[1]));$(id).replaceChildren();if(!entries.length){$(id).textContent='No hay ventas para estos filtros.';return}for(const [label,value] of entries){const row=document.createElement('div');row.className='barrow';const head=document.createElement('div');head.className='barhead';const a=document.createElement('span'),b=document.createElement('span');a.textContent=label;b.textContent=money(value/100);head.append(a,b);const track=document.createElement('div'),fill=document.createElement('div');track.className='track';fill.className='fill';fill.style.width=(value/max*100)+'%';track.append(fill);row.append(head,track);$(id).append(row)}}
-function render(){const rows=data.rows.filter(r=>filters.every(([id,key])=>!$(id).value||key(r)===$(id).value));const total=rows.reduce((s,r)=>s+r.ingreso_centavos,0),profit=rows.reduce((s,r)=>s+r.utilidad_centavos,0);$('revenue').textContent=money(total/100);$('profit').textContent=money(profit/100);$('margin').textContent=total?(profit/total*100).toFixed(2)+'%':'—';$('ticket').textContent=rows.length?money(total/100/rows.length):'—';$('count').textContent=rows.length+' ventas · '+rows.reduce((s,r)=>s+r.cantidad,0)+' unidades · Filtros aplicados a todos los indicadores';bars('months',rows,r=>r.fecha.slice(0,7),(a,b)=>a[0].localeCompare(b[0]));bars('categories',rows,r=>r.categoria,(a,b)=>b[1]-a[1]);bars('products',rows,r=>r.producto,(a,b)=>b[1]-a[1],'utilidad_centavos');bars('channels',rows,r=>r.canal,(a,b)=>b[1]-a[1]);bars('cities',rows,r=>r.ciudad,(a,b)=>b[1]-a[1]);const productTotals={};for(const r of rows)productTotals[r.producto]=(productTotals[r.producto]||0)+r.utilidad_centavos;const top=Object.entries(productTotals).sort((a,b)=>b[1]-a[1])[0];$('insight').querySelector('span').textContent=top?top[0]+' concentra la mayor utilidad bruta dentro de la selección: '+money(top[1]/100):'No hay datos suficientes para generar un insight.';bars('products',rows,r=>r.producto,(a,b)=>b[1]-a[1],'utilidad_centavos');bars('channels',rows,r=>r.canal,(a,b)=>b[1]-a[1]);const productTotals={};for(const r of rows)productTotals[r.producto]=(productTotals[r.producto]||0)+r.utilidad_centavos;const top=Object.entries(productTotals).sort((a,b)=>b[1]-a[1])[0];$('insight').querySelector('span').textContent=top?top[0]+' concentra la mayor utilidad bruta dentro de la selección: '+money(top[1]/100):'No hay datos suficientes para generar un insight.';$('detail').replaceChildren();for(const r of rows.slice().sort((a,b)=>a.fecha.localeCompare(b.fecha)).slice(0,100)){const tr=document.createElement('tr');[r.fecha,r.producto,r.ciudad,r.canal,r.cantidad,money(r.ingreso_centavos/100),money(r.utilidad_centavos/100)].forEach((v,i)=>{const td=document.createElement('td');td.textContent=v;if(i>=4)td.className='num';tr.append(td)});$('detail').append(tr)}}
-$('reset').onclick=()=>{for(const [id] of filters)$(id).value='';render()};$('quality').textContent='Calidad del archivo completo: '+data.quality.filas_origen+' filas recibidas · '+data.quality.filas_validas+' válidas · '+data.quality.filas_rechazadas+' rechazadas. Consulta filas_rechazadas.csv para auditar los motivos.';render();
-</script></html>
+for(const [id,key] of filters){
+  for(const v of ['',...new Set(data.rows.map(key).sort())]){
+    const o=document.createElement('option');o.value=v;o.textContent=v||'Todos';$(id).append(o);
+  }
+  $(id).addEventListener('change',render);
+}
+function bars(id,rows,key,sort,metric){
+  const sums=new Map();
+  for(const r of rows)sums.set(key(r),(sums.get(key(r))||0)+r[metric]);
+  const entries=[...sums].sort(sort);
+  const max=Math.max(1,...entries.map(e=>e[1]));
+  $(id).replaceChildren();
+  if(!entries.length){$(id).textContent='No hay datos para estos filtros.';return}
+  for(const [label,value] of entries){
+    const row=document.createElement('div');row.className='barrow';
+    const head=document.createElement('div');head.className='barhead';
+    const a=document.createElement('span'),b=document.createElement('span');
+    a.textContent=label;b.textContent=money(value/100);head.append(a,b);
+    const track=document.createElement('div'),fill=document.createElement('div');
+    track.className='track';fill.className='fill';fill.style.width=(value/max*100)+'%';
+    track.append(fill);row.append(head,track);$(id).append(row);
+  }
+}
+function render(){
+  const rows=data.rows.filter(r=>filters.every(([id,key])=>!$(id).value||key(r)===$(id).value));
+  const total=rows.reduce((s,r)=>s+r.ingreso_centavos,0);
+  const profit=rows.reduce((s,r)=>s+r.utilidad_centavos,0);
+  $('revenue').textContent=money(total/100);
+  $('profit').textContent=money(profit/100);
+  $('margin').textContent=total?(profit/total*100).toFixed(2)+'%':'—';
+  $('ticket').textContent=rows.length?money(total/100/rows.length):'—';
+  $('count').textContent=rows.length+' ventas · '+rows.reduce((s,r)=>s+r.cantidad,0)+' unidades · Filtros aplicados a todos los indicadores';
+  bars('months',rows,r=>r.fecha.slice(0,7),(a,b)=>a[0].localeCompare(b[0]),'ingreso_centavos');
+  bars('categories',rows,r=>r.categoria,(a,b)=>b[1]-a[1],'ingreso_centavos');
+  bars('products',rows,r=>r.producto,(a,b)=>b[1]-a[1],'utilidad_centavos');
+  bars('channels',rows,r=>r.canal,(a,b)=>b[1]-a[1],'ingreso_centavos');
+  bars('cities',rows,r=>r.ciudad,(a,b)=>b[1]-a[1],'ingreso_centavos');
+  const productTotals={};
+  const productIncome={};
+  const channelTotals={};
+  for(const r of rows){
+    productTotals[r.producto]=(productTotals[r.producto]||0)+r.utilidad_centavos;
+    productIncome[r.producto]=(productIncome[r.producto]||0)+r.ingreso_centavos;
+    channelTotals[r.canal]=(channelTotals[r.canal]||0)+r.ingreso_centavos;
+  }
+  const topProduct=Object.entries(productTotals).sort((a,b)=>b[1]-a[1])[0];
+  let topMargin=null;
+  for(const [p,profitValue] of Object.entries(productTotals)){
+    const income=productIncome[p]||0;
+    const margin=income?profitValue/income*100:0;
+    if(!topMargin||margin>topMargin.margin)topMargin={p,margin};
+  }
+  const topChannel=Object.entries(channelTotals).sort((a,b)=>b[1]-a[1])[0];
+  $('topProduct').textContent=topProduct?topProduct[0]+' — '+money(topProduct[1]/100):'Sin datos';
+  $('topMargin').textContent=topMargin?topMargin.p+' — '+topMargin.margin.toFixed(2)+'%':'Sin datos';
+  $('topChannel').textContent=topChannel?topChannel[0]+' — '+money(topChannel[1]/100):'Sin datos';
+  $('detail').replaceChildren();
+  for(const r of rows.slice().sort((a,b)=>a.fecha.localeCompare(b.fecha)).slice(0,100)){
+    const tr=document.createElement('tr');
+    [r.fecha,r.producto,r.ciudad,r.canal,r.cantidad,money(r.ingreso_centavos/100),money(r.utilidad_centavos/100)].forEach((v,i)=>{
+      const td=document.createElement('td');td.textContent=v;if(i>=4)td.className='num';tr.append(td);
+    });
+    $('detail').append(tr);
+  }
+}
+$('reset').onclick=()=>{for(const [id] of filters)$(id).value='';render()};
+$('quality').textContent='Calidad del archivo completo: '+data.quality.filas_origen+' filas recibidas · '+data.quality.filas_validas+' válidas · '+data.quality.filas_rechazadas+' rechazadas. Consulta filas_rechazadas.csv para auditar los motivos.';
+render();
+</script>
+</body>
+</html>
