@@ -6,11 +6,11 @@ Hello! I'm Juan Sebastian, a Software Development student from the Dominican Rep
 
 ### About Me
 
-- 🎓 Software Development student at Instituto Tecnológico de las Américas (ITLA)
-- 📊 Interested in Data Analytics and Business Intelligence
-- 💻 Interested in Software Development and backend applications
-- 🗄️ Interested in SQL, databases, and data management
-- 🚀 Building projects that combine programming, analytics, and databases
+-  Software Development student at Instituto Tecnológico de las Américas (ITLA)
+-  Interested in Data Analytics and Business Intelligence
+-  Interested in Software Development and backend applications
+-  Interested in SQL, databases, and data management
+-  Building projects that combine programming, analytics, and databases
 
 ### Skills
 
@@ -22,11 +22,11 @@ Hello! I'm Juan Sebastian, a Software Development student from the Dominican Rep
 
 ### Selected Projects
 
-- 📊 **E-commerce Sales Analysis** — Python, Pandas, Jupyter, CSV
-- 📦 **Inventory & Data Management** — data visualization and dashboards
-- 🌐 **Web Portfolio** — HTML, CSS, JavaScript
-- 💻 **Software Development Projects** — programming, CRUD and backend applications
-- 🗄️ **Database Projects** — SQL, PostgreSQL, SQLite and MongoDB
+-  **E-commerce Sales Analysis** — Python, Pandas, Jupyter, CSV
+-  **Inventory & Data Management** — data visualization and dashboards
+-  **Web Portfolio** — HTML, CSS, JavaScript
+-  **Software Development Projects** — programming, CRUD and backend applications
+-  **Database Projects** — SQL, PostgreSQL, SQLite and MongoDB
 
 ### Career Focus
 
