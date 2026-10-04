@@ -76,6 +76,18 @@
               "name": "gross_margin_pct",
               "value": "={{ $json.gross_margin_pct }}",
               "type": "number"
+            },
+            {
+              "id": "received",
+              "name": "received",
+              "value": "={{ $json.received }}",
+              "type": "number"
+            },
+            {
+              "id": "rejected_rows",
+              "name": "rejected_rows",
+              "value": "={{ JSON.stringify($json.rejected_rows) }}",
+              "type": "string"
             }
           ]
         },
