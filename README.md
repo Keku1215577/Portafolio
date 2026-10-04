@@ -1,10 +1,21 @@
 # Juan Sebastian De la Cruz Amparo
 
+[![Python tests](https://github.com/Keku1215577/Portafolio/actions/workflows/python-tests.yml/badge.svg)](https://github.com/Keku1215577/Portafolio/actions/workflows/python-tests.yml)
+[![Database checks](https://github.com/Keku1215577/Portafolio/actions/workflows/database-projects.yml/badge.svg)](https://github.com/Keku1215577/Portafolio/actions/workflows/database-projects.yml)
+
 ### Software Developer · Data Analyst · Database
 
 Estudiante de **Desarrollo de Software en ITLA**, orientado a construir soluciones de software, analizar datos y trabajar con bases de datos.
 
 Actualmente desarrollo proyectos prácticos con **Python, SQL, Power BI, Power Query, Excel, PostgreSQL, SQLite, MongoDB, C#, .NET, Java, Node.js y Express**.
+
+## Acceso rápido
+
+| Recurso | Objetivo |
+|---|---|
+| [Portafolio web](./index.html) | Presentación visual y proyectos destacados |
+| [Guía para reclutadores](./RECRUITER_GUIDE.md) | Ruta recomendada según la vacante |
+| [Versión en inglés](./README_PORTFOLIO.md) | Perfil internacional |
 
 ## Perfil
 
