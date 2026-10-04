@@ -1,0 +1,153 @@
+{
+  "name": "Portfolio - Sales Data Quality Automation",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "portfolio-data-automation",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-sales-data",
+      "name": "Receive Sales Data",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "portfolio-data-automation"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://python-api:8000/process",
+        "sendHeaders": false,
+        "sendBody": true,
+        "contentType": "json",
+        "jsonBody": "={{ JSON.stringify({ records: $json.records }) }}",
+        "options": {}
+      },
+      "id": "python-processing",
+      "name": "Process with Python",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        280,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "automation-status",
+              "name": "automation_status",
+              "value": "={{ $json.status }}",
+              "type": "string"
+            },
+            {
+              "id": "accepted",
+              "name": "accepted",
+              "value": "={{ $json.accepted }}",
+              "type": "number"
+            },
+            {
+              "id": "rejected",
+              "name": "rejected",
+              "value": "={{ $json.rejected }}",
+              "type": "number"
+            },
+            {
+              "id": "revenue",
+              "name": "revenue",
+              "value": "={{ $json.revenue }}",
+              "type": "number"
+            },
+            {
+              "id": "gross_profit",
+              "name": "gross_profit",
+              "value": "={{ $json.gross_profit }}",
+              "type": "number"
+            },
+            {
+              "id": "gross_margin_pct",
+              "name": "gross_margin_pct",
+              "value": "={{ $json.gross_margin_pct }}",
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "automation-summary",
+      "name": "Build Automation Summary",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        540,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json }}",
+        "options": {}
+      },
+      "id": "respond-success",
+      "name": "Return Result",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        800,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Receive Sales Data": {
+      "main": [
+        [
+          {
+            "node": "Process with Python",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Process with Python": {
+      "main": [
+        [
+          {
+            "node": "Build Automation Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Automation Summary": {
+      "main": [
+        [
+          {
+            "node": "Return Result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "portfolio-dataops-v1",
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "tags": []
+}
