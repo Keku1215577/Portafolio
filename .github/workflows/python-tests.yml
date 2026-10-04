@@ -41,3 +41,24 @@ jobs:
 
       - name: Run inventory tests
         run: python -m unittest discover -s tests -p "test_*.py" -v
+
+
+  dataops-tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Portafolio_TechRD/05_n8n_python_dataops/api
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install DataOps dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run DataOps tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
