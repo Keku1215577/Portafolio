@@ -65,6 +65,20 @@ Aplicación académica de escritorio desarrollada con JavaFX y PostgreSQL, enfoc
 
 Repositorio académico actualmente no público.
 
+### PostgreSQL Sales Database
+Base de datos relacional de ventas diseñada para practicar modelado, integridad, índices y consultas analíticas.
+
+**Tecnologías:** PostgreSQL · SQL · Data Modeling
+
+[Ver proyecto en el portafolio](./Portafolio_TechRD/03_postgresql_ventas/)
+
+### MongoDB Inventory
+Modelo documental para inventario con consultas y pipelines de agregación orientados a indicadores operativos.
+
+**Tecnologías:** MongoDB · NoSQL · Aggregation · Data Modeling
+
+[Ver proyecto en el portafolio](./Portafolio_TechRD/04_mongodb_inventario/)
+
 ### Dashboards
 Colección de trabajos de visualización e indicadores para organizar información y facilitar su interpretación.
 
