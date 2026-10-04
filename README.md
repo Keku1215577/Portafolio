@@ -37,6 +37,13 @@ Pipeline reproducible de análisis comercial con validación y limpieza de datos
 
 [Ver repositorio](https://github.com/Keku1215577/Analisis_ventas_e-commerce)
 
+### DataOps Automation con n8n + Python
+Flujo de automatización de datos que conecta n8n con una API Python para validar, limpiar y transformar registros de ventas.
+
+**Tecnologías:** n8n · Python · FastAPI · Pandas · Docker
+
+[Ver proyecto en el portafolio](./Portafolio_TechRD/05_n8n_python_dataops/)
+
 ### Gestor de inventario y ventas
 Aplicación de escritorio con separación entre interfaz, reglas de negocio y persistencia. Incluye SQLite, validaciones, transacciones atómicas, control de stock y pruebas.
 
