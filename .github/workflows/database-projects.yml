@@ -1,0 +1,80 @@
+name: Database project checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  postgresql:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: portfolio_tests
+        options: >-
+          --health-cmd="pg_isready -U postgres -d portfolio_tests"
+          --health-interval=5s
+          --health-timeout=5s
+          --health-retries=10
+        ports:
+          - 5432:5432
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Apply schema
+        env:
+          PGPASSWORD: postgres
+        run: |
+          psql -h localhost -U postgres -d portfolio_tests -f Portafolio_TechRD/03_postgresql_ventas/sql/01_schema.sql
+
+      - name: Load seed data
+        env:
+          PGPASSWORD: postgres
+        run: |
+          psql -h localhost -U postgres -d portfolio_tests -f Portafolio_TechRD/03_postgresql_ventas/sql/02_seed.sql
+
+      - name: Execute analytical queries
+        env:
+          PGPASSWORD: postgres
+        run: |
+          psql -h localhost -U postgres -d portfolio_tests -f Portafolio_TechRD/03_postgresql_ventas/sql/03_queries.sql
+
+  mongodb-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate MongoDB sample JSON
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("Portafolio_TechRD/04_mongodb_inventario/data/products.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+
+          assert isinstance(data, list)
+          assert data, "Sample dataset must not be empty"
+
+          required = {
+              "sku", "name", "category", "price", "cost",
+              "stock", "min_stock", "supplier", "warehouse", "active"
+          }
+
+          for product in data:
+              missing = required - product.keys()
+              assert not missing, f"Missing fields: {sorted(missing)}"
+              assert product["stock"] >= 0
+              assert product["min_stock"] >= 0
+              assert product["cost"] >= 0
+              assert product["price"] >= product["cost"]
+
+          print(f"Validated {len(data)} MongoDB sample documents.")
+          PY
