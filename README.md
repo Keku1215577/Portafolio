@@ -58,20 +58,6 @@ Aplicación web orientada a operaciones de inventario y almacenamiento, con dash
 
 [Ver repositorio](https://github.com/Keku1215577/Gestion_Datos_Almacenamiento)
 
-### CRUD de inventario con Node.js
-Aplicación orientada a gestión de inventario mediante API REST, operaciones CRUD y persistencia documental con MongoDB.
-
-**Tecnologías:** Node.js · Express · MongoDB · REST API
-
-Repositorio académico actualmente no público.
-
-### Punto de venta
-Aplicación académica de escritorio desarrollada con JavaFX y PostgreSQL, enfocada en operaciones de venta y persistencia relacional.
-
-**Tecnologías:** Java · JavaFX · PostgreSQL
-
-Repositorio académico actualmente no público.
-
 ### PostgreSQL Sales Database
 Base de datos relacional de ventas diseñada para practicar modelado, integridad, índices y consultas analíticas.
 
@@ -92,6 +78,13 @@ Colección de trabajos de visualización e indicadores para organizar informaci�
 **Tecnologías:** BI · Dashboards · KPIs
 
 [Ver repositorio](https://github.com/Keku1215577/Dashboards_Personal)
+
+## Referencias académicas no públicas
+
+Mantengo proyectos académicos adicionales como parte de mi historial técnico. Algunos repositorios permanecen privados mientras se revisan su estado, limpieza y documentación antes de una eventual publicación.
+
+- CRUD de inventario con Node.js, Express y MongoDB.
+- Punto de venta con Java, JavaFX y PostgreSQL.
 
 ## Objetivo profesional
 
