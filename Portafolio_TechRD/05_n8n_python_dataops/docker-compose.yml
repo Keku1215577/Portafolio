@@ -1,0 +1,21 @@
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    ports:
+      - "${N8N_PORT:-5678}:5678"
+    environment:
+      - N8N_SECURE_COOKIE=false
+      - TZ=America/Santo_Domingo
+    depends_on:
+      - python-api
+    volumes:
+      - n8n_data:/home/node/.n8n
+
+  python-api:
+    build:
+      context: ./api
+    ports:
+      - "${PYTHON_API_PORT:-8000}:8000"
+
+volumes:
+  n8n_data:
