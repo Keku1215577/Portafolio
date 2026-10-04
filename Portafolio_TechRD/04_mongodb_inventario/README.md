@@ -40,7 +40,7 @@ use portfolio_inventory
 Después importar los documentos:
 
 ```javascript
-load("data/products.js")
+load("data/products.json")
 ```
 
 Como los datos se proporcionan en JSON, también pueden importarse con:
