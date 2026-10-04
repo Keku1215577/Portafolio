@@ -1,0 +1,74 @@
+[
+  {
+    "sku": "LAP-001",
+    "name": "Laptop 14",
+    "category": "Computers",
+    "price": 95000,
+    "cost": 73500,
+    "stock": 18,
+    "min_stock": 5,
+    "supplier": "Tech Import",
+    "warehouse": { "city": "Santo Domingo", "zone": "A1" },
+    "active": true
+  },
+  {
+    "sku": "LAP-002",
+    "name": "Desktop Pro",
+    "category": "Computers",
+    "price": 78000,
+    "cost": 60000,
+    "stock": 9,
+    "min_stock": 4,
+    "supplier": "Tech Import",
+    "warehouse": { "city": "Santiago", "zone": "A2" },
+    "active": true
+  },
+  {
+    "sku": "MON-001",
+    "name": "Monitor 24",
+    "category": "Peripherals",
+    "price": 18500,
+    "cost": 11200,
+    "stock": 32,
+    "min_stock": 8,
+    "supplier": "Vision Supply",
+    "warehouse": { "city": "Santo Domingo", "zone": "B1" },
+    "active": true
+  },
+  {
+    "sku": "MOU-001",
+    "name": "Mouse USB",
+    "category": "Peripherals",
+    "price": 1250,
+    "cost": 585,
+    "stock": 110,
+    "min_stock": 25,
+    "supplier": "Vision Supply",
+    "warehouse": { "city": "La Romana", "zone": "B2" },
+    "active": true
+  },
+  {
+    "sku": "KEY-001",
+    "name": "Keyboard Mec",
+    "category": "Peripherals",
+    "price": 3250,
+    "cost": 1900,
+    "stock": 14,
+    "min_stock": 15,
+    "supplier": "Input Center",
+    "warehouse": { "city": "Santiago", "zone": "B3" },
+    "active": true
+  },
+  {
+    "sku": "CAM-001",
+    "name": "Webcam HD",
+    "category": "Accessories",
+    "price": 4600,
+    "cost": 2750,
+    "stock": 21,
+    "min_stock": 6,
+    "supplier": "Input Center",
+    "warehouse": { "city": "Santo Domingo", "zone": "C1" },
+    "active": true
+  }
+]
