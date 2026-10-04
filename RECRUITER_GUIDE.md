@@ -19,13 +19,25 @@ Demuestra:
 - Visualización.
 - Comunicación de resultados.
 
-### 3. Dashboards Personal
+### 3. DataOps Automation con n8n + Python
+
+Proyecto transversal para Data Analytics, Software Development y automatización.
+
+Demuestra:
+
+- Orquestación de workflows.
+- Integración entre n8n y una API Python.
+- Validación y transformación de datos.
+- Pandas y FastAPI.
+- Diseño de procesos reproducibles.
+
+### 4. Dashboards Personal
 
 Proyecto complementario para Data Analytics y Business Intelligence.
 
 Demuestra organización de indicadores, visualización y presentación de información.
 
-### 4. PostgreSQL Sales Database
+### 5. PostgreSQL Sales Database
 
 Proyecto específico para demostrar bases de datos relacionales y SQL.
 
@@ -50,7 +62,7 @@ Demuestra:
 - Índices.
 - Análisis de inventario.
 
-### 6. StoreSys — Sistema de gestión de almacenamiento
+### 7. StoreSys — Sistema de gestión de almacenamiento
 
 Proyecto complementario para Software Development y Data Analytics.
 
@@ -63,7 +75,7 @@ Demuestra:
 - Reportes operativos.
 - Presentación de información para toma de decisiones.
 
-### 7. Proyecto de inventario y ventas
+### 8. Proyecto de inventario y ventas
 
 Dentro del repositorio principal de Portafolio.
 
@@ -79,17 +91,17 @@ Demuestra:
 - Pruebas.
 - Persistencia.
 
-### 8. SIMD vs. procesamiento secuencial
+### 9. SIMD vs. procesamiento secuencial
 
 Proyecto complementario para Software Development.
 
 Demuestra interés en rendimiento, vectorización y optimización.
 
-### 9. Comparación de procesamiento paralelo
+### 10. Comparación de procesamiento paralelo
 
 Proyecto complementario para demostrar trabajo con paralelismo y medición de rendimiento.
 
-### 10. Otros repositorios académicos
+### 11. Otros repositorios académicos
 
 Los demás repositorios públicos pueden conservarse como historial técnico, pero no deben ocupar el centro de la presentación profesional hasta que estén mejor documentados.
 
@@ -98,19 +110,20 @@ Los demás repositorios públicos pueden conservarse como historial técnico, pe
 Para una vacante de Data Analyst, priorizar:
 
 1. Análisis de ventas E-commerce.
-2. Dashboards Personal.
-3. PostgreSQL Sales Database.
-4. StoreSys.
-5. Portafolio.
+2. DataOps Automation con n8n + Python.
+3. Dashboards Personal.
+4. PostgreSQL Sales Database.
+5. StoreSys.
 
 Para una vacante de Software Developer, priorizar:
 
 1. Gestor de inventario y ventas.
-2. StoreSys.
-3. PostgreSQL Sales Database.
-4. MongoDB Inventory.
-5. SIMD vs. procesamiento secuencial.
-6. Comparación de procesamiento paralelo.
+2. DataOps Automation con n8n + Python.
+3. StoreSys.
+4. PostgreSQL Sales Database.
+5. MongoDB Inventory.
+6. SIMD vs. procesamiento secuencial.
+7. Comparación de procesamiento paralelo.
 
 Para una vacante de Database Administrator, priorizar:
 
