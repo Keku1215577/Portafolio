@@ -6,13 +6,33 @@ __pycache__/
 venv/
 env/
 
+# .NET / Visual Studio
+.vs/
+*.user
+*.suo
+bin/
+obj/
+TestResults/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
 # Local databases
 *.sqlite3-journal
 *.sqlite3-wal
 *.sqlite3-shm
 
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
 # IDE / OS
-.vscode/
 .idea/
+.vscode/
 .DS_Store
 Thumbs.db
