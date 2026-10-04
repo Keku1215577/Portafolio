@@ -50,7 +50,7 @@ Demuestra:
 - Consultas analíticas.
 - CTE y funciones de ventana.
 
-### 5. MongoDB Inventory
+### 6. MongoDB Inventory
 
 Proyecto específico para demostrar trabajo con bases de datos NoSQL.
 
