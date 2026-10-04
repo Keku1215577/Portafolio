@@ -25,7 +25,32 @@ Proyecto complementario para Data Analytics y Business Intelligence.
 
 Demuestra organización de indicadores, visualización y presentación de información.
 
-### 4. StoreSys — Sistema de gestión de almacenamiento
+### 4. PostgreSQL Sales Database
+
+Proyecto específico para demostrar bases de datos relacionales y SQL.
+
+Demuestra:
+
+- Modelado relacional.
+- Integridad referencial.
+- Restricciones y tipos de datos.
+- Índices.
+- Consultas analíticas.
+- CTE y funciones de ventana.
+
+### 5. MongoDB Inventory
+
+Proyecto específico para demostrar trabajo con bases de datos NoSQL.
+
+Demuestra:
+
+- Modelado documental.
+- Consultas y filtros.
+- Pipelines de agregación.
+- Índices.
+- Análisis de inventario.
+
+### 6. StoreSys — Sistema de gestión de almacenamiento
 
 Proyecto complementario para Software Development y Data Analytics.
 
@@ -38,7 +63,7 @@ Demuestra:
 - Reportes operativos.
 - Presentación de información para toma de decisiones.
 
-### 5. Proyecto de inventario y ventas
+### 7. Proyecto de inventario y ventas
 
 Dentro del repositorio principal de Portafolio.
 
@@ -54,17 +79,17 @@ Demuestra:
 - Pruebas.
 - Persistencia.
 
-### 6. SIMD vs. procesamiento secuencial
+### 8. SIMD vs. procesamiento secuencial
 
 Proyecto complementario para Software Development.
 
 Demuestra interés en rendimiento, vectorización y optimización.
 
-### 7. Comparación de procesamiento paralelo
+### 9. Comparación de procesamiento paralelo
 
 Proyecto complementario para demostrar trabajo con paralelismo y medición de rendimiento.
 
-### 8. Otros repositorios académicos
+### 10. Otros repositorios académicos
 
 Los demás repositorios públicos pueden conservarse como historial técnico, pero no deben ocupar el centro de la presentación profesional hasta que estén mejor documentados.
 
@@ -74,23 +99,26 @@ Para una vacante de Data Analyst, priorizar:
 
 1. Análisis de ventas E-commerce.
 2. Dashboards Personal.
-3. StoreSys.
-4. Portafolio.
-5. Proyecto de inventario y ventas.
+3. PostgreSQL Sales Database.
+4. StoreSys.
+5. Portafolio.
 
 Para una vacante de Software Developer, priorizar:
 
 1. Gestor de inventario y ventas.
 2. StoreSys.
-3. SIMD vs. procesamiento secuencial.
-4. Comparación de procesamiento paralelo.
-5. Portafolio.
+3. PostgreSQL Sales Database.
+4. MongoDB Inventory.
+5. SIMD vs. procesamiento secuencial.
+6. Comparación de procesamiento paralelo.
 
 Para una vacante de Database Administrator, priorizar:
 
-1. Gestor de inventario y ventas.
-2. Análisis de ventas con SQLite y SQL.
-3. Proyectos con SQL Server, PostgreSQL y MongoDB cuando estén disponibles públicamente y correctamente documentados.
+1. PostgreSQL Sales Database.
+2. MongoDB Inventory.
+3. Gestor de inventario y ventas.
+4. Análisis de ventas con SQLite y SQL.
+5. Proyectos académicos con SQL Server cuando estén limpios y correctamente documentados.
 
 ## Criterio de publicación
 
@@ -100,7 +128,7 @@ No se debe atribuir experiencia laboral, clientes reales o resultados de negocio
 
 ## Próxima prioridad
 
-La siguiente mejora de mayor impacto es convertir los ejercicios de bases de datos más sólidos en proyectos independientes, ejecutables y correctamente documentados.
+La base de datos del portafolio ya cuenta con evidencias prácticas de SQL relacional y NoSQL. La siguiente prioridad es consolidar la experiencia visual y de entrevista alrededor de estos proyectos y mantener los repositorios académicos secundarios fuera del camino principal hasta que estén depurados.
 
 Antes de publicar un repositorio académico, se debe revisar:
 
